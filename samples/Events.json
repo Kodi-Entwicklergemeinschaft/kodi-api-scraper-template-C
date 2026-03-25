@@ -1,0 +1,1446 @@
+{
+  "@context": [
+    "https://schema.org/",
+    {
+      "@base": "https://data.rlp-tourismus.de/api/v4/universal/",
+      "@language": "de",
+      "skos": "https://www.w3.org/2009/08/skos-reference/skos.html#",
+      "dct": "http://purl.org/dc/terms/",
+      "cc": "http://creativecommons.org/ns#",
+      "dc": "https://schema.datacycle.at/",
+      "dcls": "https://data.rlp-tourismus.de/schema/",
+      "odta": "https://odta.io/voc/",
+      "sdm": "https://smartdatamodels.org/",
+      "alps": "http://json-schema.org/draft-07/schema/destinationdata/schemas/2022-04/datatypes#/definitions/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "51c3c049-d6b4-42f6-b8d9-bf90a1ef2e73",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Vatertag beim ASV Miesau",
+      "startDate": "2025-05-29T10:00:00.000+02:00",
+      "endDate": "2025-05-29T10:00:00.000+02:00",
+      "description": "\u003cp\u003eTraditionell lädt der ASV Miesau zum Vatertagsfest ein. An der urigen Fischerhütte können Sie den Feiertag mitten im Grünen genießen.\u003c/p\u003e \u003cp\u003eDas Team des Angelsportvereins bietet:\u003c/p\u003e \u003cul\u003e \u003cli\u003eGegrillten Rollbraten\u003c/li\u003e \u003cli\u003eRostwürste weiß/rot\u003c/li\u003e \u003c/ul\u003e \u003cp\u003eNatürlich darf hierbei auch das ein oder andere gekühlte Getränk nicht fehlen!\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "a722319a-1802-4b23-94bf-c354bba2c9cc",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/a722319a-1802-4b23-94bf-c354bba2c9cc/rw2JHJ2AIWY9YE3Zt3KC63x9-j60r4Nxtg2FsMbYItA/1748402390/default/fischerhutte_asv_miesau.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "b88e3047-a94d-4db3-aeac-07ac8da9dbe6",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Fischerhütte Miesau",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Am Schwimmbad",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "b88e3047-a94d-4db3-aeac-8fe115ad4279",
+            "name": "Fischerhütte des ASV Miesau",
+            "url": "http://www.asv-miesau.de"
+          },
+          "geo": {
+            "longitude": 7.4461107805649,
+            "@id": "b88e3047-a94d-4db3-aeac-eb6df94a3bca",
+            "@type": "GeoCoordinates",
+            "latitude": 49.4130861658287
+          }
+        }
+      ]
+    },
+    {
+      "@id": "a056c5ed-039f-432b-b563-14ae9c1931f2",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Mystischer Abend – SOMMERSONNWENDE- Johanni -Litha",
+      "startDate": "2025-06-24T19:00:00.000+02:00",
+      "endDate": "2025-06-25T21:00:00.000+02:00",
+      "description": "\u003cp\u003eAbendveranstaltung auf Burg Lichtenberg/Rittersaal\u003c/p\u003e \u003cp\u003eam 24./25. Juni 2025\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eBeginn: 19.00 Uhr\u003c/p\u003e \u003cp\u003eUnkostenbeitrag: 14 Euro\u003c/p\u003e \u003cp\u003eModeratorin: Christel Trost\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eAnmeldung erforderlich unter\u003c/p\u003e \u003cp\u003eTelefon Burgverwaltung 06381/8429 (bitte erst ab 10.00 Uhr) oder\u003c/p\u003e \u003cp\u003eburg-lichtenberg@kv-kus.de\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eDas alte Sommerfest, welches vor Allem noch in Schweden gefeiert, war auch in unseren Regionen ein wichtiger Punkt im Jahreskreislauf, steht es doch der Wintersonnwende genau gegenüber .\u003c/p\u003e \u003cp\u003eAn diesem mystischen Abend auf Burg Lichtenberg erfahren Sie so einiges über dieses schöne alte Sommerfest, dem Höhepunkt des Sonnenjahres. Aber auch welche Kräuter dazu gehören, was gewöhnlich zum Räuchern verwendet wird, Geschichten über magische Bräuche und Legenden. \u003c/p\u003e",
+      "image": [
+        {
+          "@id": "51a270b8-d8d0-4f59-8fc1-e63eae35de0b",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/51a270b8-d8d0-4f59-8fc1-e63eae35de0b/sZOOe0iIDUAoFlAz8v02D7FG7P0qvrffNz47EKGBx1w/1748054667/default/4d9aff3c-6f27-4197-966e-1e6e865a2ff9.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "0f1df86a-dd03-4cb2-925d-66b9da0b25d3",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Burg Lichtenberg/\"Rittersaal\"",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Burgstraße 17",
+            "postalCode": "66871",
+            "addressLocality": "Thallichtenberg",
+            "addressCountry": "DE",
+            "@id": "0f1df86a-dd03-4cb2-925d-eef4420fbc4c",
+            "name": "Burg Lichtenberg - Andreas Rauch",
+            "telephone": "(+49) 6381 8429",
+            "email": "andreas.rauch@kv-kus.de",
+            "url": "http://www.burglichtenberg-pfalz.de"
+          },
+          "geo": {
+            "longitude": 7.35573772825319,
+            "@id": "0f1df86a-dd03-4cb2-925d-8a78aee8c5ff",
+            "@type": "GeoCoordinates",
+            "latitude": 49.5557807007952
+          }
+        }
+      ]
+    },
+    {
+      "@id": "56aac6e5-5bc0-498c-935c-ee8c30fdd8cc",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Reit- und Springturnier",
+      "startDate": "2025-06-07T00:00:00.000+02:00",
+      "endDate": "2025-06-08T00:00:00.000+02:00",
+      "description": "\u003cp\u003eDer Reit- und Fahrverein Miesau freut sich, endlich wieder zu seinem traditionellen Pfingstturnier einladen zu können. Ein Reitsporterlebnis das über die Grenzen der Verbandsgemeinde hinaus bekannt ist. \u003c/p\u003e \u003cp\u003eAuch diesmal werden sich sicher wieder viele Zuschauer von der Barockpferdekür begeistern lassen. \u003c/p\u003e \u003cp\u003eDas genaue Programm für die zwei Tage voller Pferdesport folgt zu gegebenem Zeitpunkt.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "abefb72b-ae81-42a6-9959-e11d12ed5760",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/abefb72b-ae81-42a6-9959-e11d12ed5760/fFvC1G6gl5zzNCwccXe4PJrhkNB1NW2xG1n8736k8G8/1745977036/default/fackelturnier_in_miesau.jpg"
+        },
+        {
+          "@id": "da56b807-4b24-48bd-8b3b-5c8e416757d5",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/da56b807-4b24-48bd-8b3b-5c8e416757d5/FiiVViW_32OqZn82rgdc7Yb0UnqbKMzZ5I6RZqO0XXQ/1745977036/default/reit-_und_springrunier_miesau.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "a290f273-25f5-4db1-83a7-4cff0c3f8913",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Springplatz RFV Miesau",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Im Junkersgarten 7",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "a290f273-25f5-4db1-83a7-c4b2943b108c",
+            "name": "Reit- und Fahrverein Miesau",
+            "telephone": "(+49) 06372 2976"
+          },
+          "geo": {
+            "longitude": 7.4425323693422,
+            "@id": "a290f273-25f5-4db1-83a7-a03e78dc693f",
+            "@type": "GeoCoordinates",
+            "latitude": 49.4107510818519
+          }
+        }
+      ]
+    },
+    {
+      "@id": "6f39b06a-5276-4a5d-9d50-0b1a1fe16101",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Burgenblick Wanderung",
+      "startDate": "2025-06-15T10:00:00.000+02:00",
+      "endDate": "2025-06-15T10:00:00.000+02:00",
+      "description": "\u003cp\u003eStart 10:00 Uhr am Bahnhof Wolfstein\u003c/p\u003e \u003cp\u003egeführte Wanderung zur Heidenburg\u003c/p\u003e \u003cp\u003espritziger Zwischenstopp ( Weinfreunde Wolfstein ) mit Panoramablick\u003c/p\u003e \u003cp\u003egemütliche Mittagsrast und wieder zurück ( 12 km)\u003c/p\u003e \u003cp\u003eKosten: 5€ p.P. (ohne Essen)\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "cc01c2dd-6a8e-4e11-841f-e5c77df55567",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/cc01c2dd-6a8e-4e11-841f-e5c77df55567/U4E19YKVBOPkJxgTffoywqivtC3KcSkG4OKL2zcbs2Y/1748319530/default/wanderung_heidenburg_2.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "9eae4e28-cb57-4279-9653-454639f3ca5a",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Bahnhof Wolfstein",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Schulstraße 6a",
+            "postalCode": "67742",
+            "addressLocality": "Lauterecken",
+            "addressCountry": "DE",
+            "@id": "9eae4e28-cb57-4279-9653-cd0ba1f753c5",
+            "name": "Verbandsgemeindeverwaltung Lauterecken-Wolfstein - Kathrin Bürthel",
+            "telephone": "(0049) 6382 791 142",
+            "email": "tourismus@vg-lw.de",
+            "url": "http://www.vg-lw.de"
+          },
+          "geo": {
+            "longitude": 7.6103,
+            "@id": "9eae4e28-cb57-4279-9653-a9874d102a76",
+            "@type": "GeoCoordinates",
+            "latitude": 49.58481
+          }
+        }
+      ]
+    },
+    {
+      "@id": "17d1b69f-94af-4e68-8e96-db86fbcebcd4",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Waldfest an der Fritz-Claus-Hütte",
+      "startDate": "2025-05-29T10:00:00.000+02:00",
+      "endDate": "2025-05-29T10:00:00.000+02:00",
+      "description": "\u003cp\u003eVatertag bei der Fritz-Claus-Hütte in Martinshöhe!\u003c/p\u003e \u003cp\u003eVerbringt den Vatertag in uriger, grüner und absolut authentischer Atmosphäre. Der Pfälzer Wanderverein Martinshöhe lädt ab 10 Uhr ein zum Waldfest an der Fritz-Claus-Hütte in Martinshöhe.\u003c/p\u003e \u003cp\u003eOb mit Familie, Freunden oder auf Vatertagstour.\u003c/p\u003e \u003cp\u003eAuf der Karte stehen:\u003c/p\u003e \u003cp\u003e- Herzhaftes vom Grill\u003c/p\u003e \u003cp\u003e- Frisch gezapftes Bier und Erfrischungen\u003c/p\u003e \u003cp\u003e- Natur und gute Stimmung\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "c6c2045e-dc6f-4e50-b780-6afb26827412",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/c6c2045e-dc6f-4e50-b780-6afb26827412/VroZXqjiMNMjMeVyKOZfQPuBBygW18l5f7RwmBiqBE4/1748319520/default/genusswanderung_fritz-claus-hutte_martinshohe.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "24371686-71f1-4f92-b892-91a2f002c995",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Fritz-Claus-Hütte Martinshöhe",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "An der L 466",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "24371686-71f1-4f92-b892-19ef6806500a",
+            "name": "Fritz-Claus-Hütte - Wolf",
+            "telephone": "(0049) 160 5806387",
+            "email": "sportheim-bann@t-online.de"
+          },
+          "geo": {
+            "longitude": 7.48280838641358,
+            "@id": "24371686-71f1-4f92-b892-7d6384e129b9",
+            "@type": "GeoCoordinates",
+            "latitude": 49.3789414116899
+          }
+        }
+      ]
+    },
+    {
+      "@id": "9a247194-76df-459d-8752-8c5458e81068",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Frühstückswanderung Rüllberg",
+      "startDate": "2025-06-29T07:00:00.000+02:00",
+      "endDate": "2025-06-29T07:00:00.000+02:00",
+      "description": "\u003cp\u003egeführte Wanderung ca. 60km\u003c/p\u003e \u003cp\u003eam 29. Juni 2025\u003c/p\u003e \u003cp\u003e7 Uhr am Schwimmbad Rüllberg\u003c/p\u003e \u003cp\u003e15€ p.P. inkl. Frühstück\u003c/p\u003e \u003cp\u003efreier Eintritt ins Schwimmbad\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "6602e529-a225-414e-8e14-c92bd356da29",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/6602e529-a225-414e-8e14-c92bd356da29/NSara410kR3wmYFWdrqXKL2t9_omNHfccx5JAue5i5Q/1748319505/default/fruhstuckswanderung.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "196d105f-b7cc-444a-a933-58de131add0b",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Schwimmbad Rüllberg",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Schulstraße 6a",
+            "postalCode": "67742",
+            "addressLocality": "Lauterecken",
+            "addressCountry": "DE",
+            "@id": "196d105f-b7cc-444a-a933-d0938b1e4494",
+            "name": "Verbandsgemeindeverwaltung Lauterecken-Wolfstein - Kathrin Bürthel",
+            "telephone": "(0049) 6382 791 142",
+            "email": "tourismus@vg-lw.de",
+            "url": "http://www.vg-lw.de"
+          },
+          "geo": {
+            "longitude": 7.52655,
+            "@id": "196d105f-b7cc-444a-a933-b41f67f93d27",
+            "@type": "GeoCoordinates",
+            "latitude": 49.65777
+          }
+        }
+      ]
+    },
+    {
+      "@id": "d0558c9d-51e3-4bc2-aaae-1a2766c349d9",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Offene Gartentüren für alle!",
+      "startDate": "2025-06-29T00:00:00.000+02:00",
+      "endDate": "2025-06-29T00:00:00.000+02:00",
+      "description": "\u003cp\u003eDie erfolgreiche kleine Gartenschau \"Offene Gartentüren\" vom Rotenfels über die Alte Welt bis zum Donnersberg, soll auch 2025 wieder Gartenliebhaber*innen von nah und fern anlocken. Deshalb sind alle Gartenbesitzer*innen aus den Verbandsgemeinden Bad Kreuznach, Lauterecken-Wolfstein, Nahe-Glan, Nordpfälzer Land und Otterbach-Otterberg eingeladen, ihre grünen Oasen für Gäste zu öffnen. \u003c/p\u003e \u003cp\u003e\u003cbr\u003eAm Sonntag, den 29.06.2025, möchten wir die Alte Welt in voller Blütenpracht präsentieren.\u003cbr\u003eMitmachen können alle, die einen sehenswerten Auflenbereich zu bieten haben. \u003cbr\u003eEgal ob grofles Gartenareal, kleiner Ziergarten, Nutz- und Kräutergärten, Bauerngarten, begrünter Innenhof oder schöner Vorgarten – es kommt weder auf die Größe noch auf die Art des Gartens an. Auch Themengärten im asiatischen oder \u003cbr\u003eenglischen Cottage-Stil, Steingärten, Hanggärten, Senkgärten, Gartenteiche, Bachläufe und Schwimmteiche, Pflanzensammlungen oder seltene Gewächse können begeistern. \u003cbr\u003eDie Gartenveranstaltung soll dem Austausch von Erfahrungen, der Weitergabe von Wissen, dem Fachsimpeln und vor allem dem Genießen der Gartenräume dienen. Sicher wird auch das ein oder andere Samenkorn und mancher Pflanzenableger den Besitzer wechseln! \u003c/p\u003e \u003cp\u003e\u003cbr\u003eAnmeldungen von Gartenbesitzer*innen bis spätestens 03.04.2025 unter Angabe der vollständigen Kontaktdaten an die Verbandsgemeinde Nordpfälzer Land unter touristinfo@vg-nl.de oder 06361/451-124.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "a8c99cb2-610d-4b42-aadf-8552634f8c4f",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/a8c99cb2-610d-4b42-aadf-8552634f8c4f/YX1KUF-E62sm9OO9FLuLKFpNuZpsfwfZObEAQDKUVtk/1748319456/default/offenegartentueren2025_final-0001.jpg"
+        },
+        {
+          "@id": "faffef91-1af9-43c5-9b07-74d89e4b7ee4",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/faffef91-1af9-43c5-9b07-74d89e4b7ee4/4LOi6MPsnfMqOgL7gUXRwSUiyglawkyIoW4OtL0JQlg/1748319456/default/offenegartentueren2025_final-0002.jpg"
+        },
+        {
+          "@id": "ede887b0-c21a-4163-be63-fb83973f686f",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/ede887b0-c21a-4163-be63-fb83973f686f/0uKJGpE5PsDoUibgOuM2eBAe-LWQ_11nSYd0ZguWK7k/1741925349/default/offene_gartenturen_25.jpg"
+        },
+        {
+          "@id": "37ed6e79-7c6e-4588-b643-aa6ebc1057dc",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/37ed6e79-7c6e-4588-b643-aa6ebc1057dc/zDyJ4Y_ChYQyR8naOgx5j-G8fG4hn0_5qChWVoN6G_w/1741925349/default/anmeldung_offene_gartenturen.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "dc5599d7-f1fe-4607-823d-f5e75850b14d",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Rotenfels bis zum Donnersberg",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Bezirksamtsstr. 7",
+            "postalCode": "67806",
+            "addressLocality": "Rockenhausen",
+            "addressCountry": "DE",
+            "@id": "dc5599d7-f1fe-4607-823d-7daac05428d2",
+            "name": "Verbandsgemeindeverwaltung Nordpfälzer Land - Verena Wasem",
+            "telephone": "(0049) 6361 451-121",
+            "email": "verena.wasem@vg-nl.de",
+            "url": "http://www.nordpfälzerland.de"
+          },
+          "geo": {
+            "longitude": 7.8179746,
+            "@id": "dc5599d7-f1fe-4607-823d-19262cb35161",
+            "@type": "GeoCoordinates",
+            "latitude": 49.6299055
+          }
+        }
+      ]
+    },
+    {
+      "@id": "6c7e3fb9-3d6a-45b1-89fa-71f244e8e4f1",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Kräuterseminar auf Burg Lichtenberg Veranstaltung",
+      "startDate": "2024-06-11T19:00:00.000+02:00",
+      "endDate": "2024-06-12T21:00:00.000+02:00",
+      "description": "\u003cp\u003eVeranstaltung mit Kräuterpädagogin Christel Trost\u003c/p\u003e \u003cp\u003eUnser Johanniskraut ist eine typische Sommer-Sonnenpflanze die wir während seiner Blütezeit sammeln können.\u003cbr\u003eDas gesamte Kraut ist nutzbar und hatte einen wichtigen Platz im Kräuterschrank unserer Großmütter .\u003cbr\u003eEs ist eine Heilpflanze mit breitem Wirkspektrum, vielen Anwendungsmöglichkeiten und einem interessanten mythologischen Hintergrund.\u003cbr\u003eErfahren Sie mehr bei dem Kräuterseminar auf Burg Lichtenberg. Hier kommen Sie der Natur wieder ein Stück näher und lernen die Wirkung der Pflanzen neu zu schätzen und zu würdigen. \u003cbr\u003eIm Rahmen des Seminars wird pro Veranstaltung eine Pflanze detailliert vorgestellt. Sie erfahren, wo und unter welchen Bedingungen sie wächst, wann und wie sie geerntet, gelagert, verarbeitet und verwendet wird.\u003cbr\u003eDas Seminar findet in der Zehntscheune auf Burg Lichtenberg statt. Bitte eine Tasse/Glas, Löffelchen, Gabel und Schälchen mitbringen.\u003c/p\u003e \u003cp\u003eDie Gebühr für die zweistündige Veranstaltung beträgt 13,00 Euro. Anmeldungen unter 06381-8429 oder \u003ca href=\"mailto:burg-lichtenberg@kv-kus.de\"\u003eburg-lichtenberg@kv-kus.de\u003c/a\u003e.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "41377ada-b80a-4561-8433-e4b3141ec093",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/41377ada-b80a-4561-8433-e4b3141ec093/WyOCRBTKpiJBMhBmuR5SvlizMXy-6xfLulOAB7jmkks/1748318665/default/johanniskraut.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "7ccd3fbc-8dbb-4166-9fc3-1b41865dbd36",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Burg Lichtenberg/Zehntscheune",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Burgstraße 17",
+            "postalCode": "66871",
+            "addressLocality": "Thallichtenberg",
+            "addressCountry": "DE",
+            "@id": "7ccd3fbc-8dbb-4166-9fc3-930c1e5924a9",
+            "name": "Burg Lichtenberg",
+            "telephone": "(0049) 6381 8429",
+            "email": "burg-lichtenberg@kv-kus.de",
+            "url": "http://www.burglichtenberg-pfalz.de"
+          },
+          "geo": {
+            "longitude": 7.35528165946653,
+            "@id": "7ccd3fbc-8dbb-4166-9fc3-f780f2be5d1a",
+            "@type": "GeoCoordinates",
+            "latitude": 49.555570931672
+          }
+        }
+      ]
+    },
+    {
+      "@id": "f1d5642b-e0eb-4a14-8fe8-da8d4af8994f",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Kräuterseminar im „Rittersaal“ auf Burg Lichtenber",
+      "startDate": "2025-06-03T19:00:00.000+02:00",
+      "endDate": "2025-07-02T21:00:00.000+02:00",
+      "description": "\u003cp\u003eBaldrian ist eine altbewährte Heilpflanze und schon lange in der Volksheilkunde bekannt und gerne genutzt.\u003c/p\u003e \u003cp\u003eNeben ihrem schönen Wuchs besitzt sie eine breitgefächerte Heilwirkung. \u003c/p\u003e \u003cp\u003eBaldrian kann in unserer schnelllebigen Zeit zum wertvollen pflanzlichen Helfer bei vielerlei Beschwerden ,wie Schlafstörungen, Nervosität , Wechseljahresbeschwerden, psychische Problemen und vielem anderen mehr werden. \u003c/p\u003e \u003cp\u003eEs lohnt sich, diese Heilpflanze näher kennenzulernen!\u003c/p\u003e \u003cp\u003eErfahren Sie mehr bei dem Kräuterseminar auf Burg Lichtenberg. Hier kommen Sie der Natur wieder ein Stück näher und lernen die Wirkung der Pflanzen neu zu schätzen und zu würdigen.\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eIm Rahmen des Seminars wird pro Veranstaltung eine Pflanze detailliert vorgestellt.\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eSie erfahren, wo und unter welchen Bedingungen sie wächst, wann und wie sie geerntet, gelagert, verarbeitet und verwendet wird.\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eDas Seminar findet in der Zehntscheune auf Burg Lichtenberg statt. Bitte eine Tasse/Glas, Löffelchen, Gabel und Schälchen mitbringen.\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eDie Gebühr für die zweistündige Veranstaltung beträgt 14,00 Euro. Anmeldungen unter 06381-8429 (bitte erst ab 12.00 Uhr) oder\u003c/p\u003e \u003cp\u003e\u003ca href=\"mailto:burg-lichtenberg@kv-kus.de\"\u003eburg-lichtenberg@kv-kus.de\u003c/a\u003e.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "f9990153-c547-457e-a01e-025585369823",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/f9990153-c547-457e-a01e-025585369823/bIdfEOcBQn3XB4wjXeObAvwe6xcJrn8-GrLWBJPV32w/1747794647/default/baldrian_-_bild_aus_der_freien_bibliothek.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "da244f60-5b99-4bc7-92f8-3da1e3dc4b6a",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Burg Lichtenberg/\"Rittersaal\"",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Burgstraße 17",
+            "postalCode": "66871",
+            "addressLocality": "Thallichtenberg",
+            "addressCountry": "DE",
+            "@id": "da244f60-5b99-4bc7-92f8-b5ec7bd8d2f5",
+            "name": "Burg Lichtenberg - Andreas Rauch",
+            "telephone": "(+49) 6381 8429",
+            "email": "andreas.rauch@kv-kus.de",
+            "url": "http://www.burglichtenberg-pfalz.de"
+          },
+          "geo": {
+            "longitude": 7.35554460920412,
+            "@id": "da244f60-5b99-4bc7-92f8-d160973fab46",
+            "@type": "GeoCoordinates",
+            "latitude": 49.5557389415228
+          }
+        }
+      ]
+    },
+    {
+      "@id": "fb135139-2b2f-426c-a627-0774ac8de79e",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "\" Mystischer Abend\" OSTARA",
+      "startDate": "2025-03-25T19:00:00.000+01:00",
+      "endDate": "2025-03-26T21:00:00.000+01:00",
+      "description": "\u003cp\u003eOSTARA oder die Frühlings Tag- und Nachtgleiche wurde traditionell zwischen dem 21. und 23.März gefeiert.\u003c/p\u003e \u003cp\u003eDie heidnische Göttin Ostara gab unserem Osterfest den Namen und auch die alten Symbole wie der Hase und das Ei haben dort ihren Ursprung.\u003c/p\u003e \u003cp\u003eEs ist die Zeit des Gleichgewichts und des Zusammenspiels der Elemente sowie des wirklichen Frühlingserwachens. \u003cbr\u003e \u003c/p\u003e \u003cp\u003eWir hören vom Ursprung des alten Festes mit seinen Bräuchen, Geschichten und dem dazu gehörenden Räucherwerk und den Heil- und Zauberpflanzen. \u003cbr\u003e \u003c/p\u003e \u003cp\u003eAbendveranstaltung auf Burg Lichtenberg/RITTERSAAL am 25. und 26. März 2025\u003c/p\u003e \u003cp\u003eBeginn: 19.00 Uhr bis ca. 21.00 Uhr\u003c/p\u003e \u003cp\u003eUnkostenbeitrag: 14 Euro\u003c/p\u003e \u003cp\u003eModeratorin: Christel Trost\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eAnmeldung erforderlich unter\u003c/p\u003e \u003cp\u003eTelefon Burgverwaltung 06381/8429 (bitte erst ab 12.00 Uhr) oder\u003c/p\u003e \u003cp\u003eburg-lichtenberg@kv-kus.de\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "29fa40f7-dd7b-4c4d-bd7e-613e31f6d73e",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/29fa40f7-dd7b-4c4d-bd7e-613e31f6d73e/5Aj5z201cUTI2emVsaA3DlTIWmtkEIEamhTsqwyC6J0/1741142249/default/bild_von_christel_trost.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "e523b9d4-0e33-4820-9b11-cbb1e7a2a6a6",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Burg Lichtenberg/\"Rittersaal\"",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Burgstraße 17",
+            "postalCode": "66871",
+            "addressLocality": "Thallichtenberg",
+            "addressCountry": "DE",
+            "@id": "e523b9d4-0e33-4820-9b11-43fc7fa63f39",
+            "name": "Burg Lichtenberg - Andreas Rauch",
+            "telephone": "(+49) 6381 8429",
+            "email": "andreas.rauch@kv-kus.de",
+            "url": "http://www.burglichtenberg-pfalz.de"
+          },
+          "geo": {
+            "longitude": 7.35564643989256,
+            "@id": "e523b9d4-0e33-4820-9b11-27709341468a",
+            "@type": "GeoCoordinates",
+            "latitude": 49.5558632468373
+          }
+        }
+      ]
+    },
+    {
+      "@id": "be5dd7a5-7fc1-455a-9f7a-e93245baa1ff",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Elschbacher Kerb",
+      "startDate": "2025-08-08T10:30:00.000+02:00",
+      "endDate": "2025-08-11T21:00:00.000+02:00",
+      "description": "\u003cp\u003eVom Kerwetanz am Freitag bis zum Dämmerschoppen am Montag. Die Kerb in Elschbach hat Tradition und wird auch in diesem Jahr standesgemäß gefeiert. Das genaue Programm wird rechtzeitig bekannt gegeben. \u003c/p\u003e",
+      "image": [
+        {
+          "@id": "a784cf21-be3a-40cf-901e-7f40c08a11c7",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/a784cf21-be3a-40cf-901e-7f40c08a11c7/bwsukpSnRoOOHEYYYA7jrRYK3ugHezpB311m33ApyNA/1746753597/default/kerwe_elschbach.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "0150d733-ca20-4918-b70c-ab242440a0ff",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Dorfplatz Elschbach",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Im Weiher 2",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "0150d733-ca20-4918-b70c-2369bc443960",
+            "name": "Dorfgemeinschaftshaus Elschbach",
+            "telephone": "(+49)06372 9220305"
+          },
+          "geo": {
+            "longitude": 7.43291470494555,
+            "@id": "0150d733-ca20-4918-b70c-47e550a340d3",
+            "@type": "GeoCoordinates",
+            "latitude": 49.4161748486346
+          }
+        }
+      ]
+    },
+    {
+      "@id": "8ff42284-c089-4110-b875-312f38478f42",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Elschbacher Wikingerfest",
+      "startDate": "2025-09-06T13:00:00.000+02:00",
+      "endDate": "2025-09-07T11:00:00.000+02:00",
+      "description": "\u003cp\u003e\u003cb\u003eWikingerfest beim SGV Elschbach\u003c/b\u003e\u003c/p\u003e \u003cp\u003eZum traditionellen Wikingerfest am Festwochenende, lädt der Sport- und Gesangverein Elschbach die\u003cbr\u003eBevölkerung herzlich auf den Wikingerplatz am Glanhübel vor den Toren Elschbachs ein.\u003c/p\u003e \u003cp\u003eDie beiden Veranstaltungstage stehen ganz im Zeichen spannender Wikingerspiele wie z.B. Steinstoßen, Sprung aus dem Stand, Tauziehen,\u003cbr\u003eHäuptlingstragen und anderen unterhaltsamen Wettkampfdisziplinen sowie kulinarischer Gaumenfreuden.\u003c/p\u003e \u003cp\u003eDas genaue Programm wird rechtzeitig hier bekannt gegeben. \u003c/p\u003e",
+      "image": [
+        {
+          "@id": "7b900576-325a-4fb3-b564-2fed5cff37bc",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/7b900576-325a-4fb3-b564-2fed5cff37bc/4f4Ud9VKqt4IZchPN699CfKTlflP3u6GZs1Rw0Sn-Nw/1746753593/default/wikingerfest_elschbach.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "365f5d7e-777b-4c5c-bbc1-a7f3930c4022",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Wikingerplatz Elschbach",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "49°24'51.3\"N 7°26'19.8\"E",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "365f5d7e-777b-4c5c-bbc1-2fbe0b08d9bd",
+            "name": "Wikingerplatz Elschbach",
+            "url": "https://goo.gl/maps/6CZ6mmWGmYw"
+          },
+          "geo": {
+            "longitude": 7.43908459792784,
+            "@id": "365f5d7e-777b-4c5c-bbc1-4b32e7efa00e",
+            "@type": "GeoCoordinates",
+            "latitude": 49.4142130512715
+          }
+        }
+      ]
+    },
+    {
+      "@id": "966618db-836e-48c6-b8a7-69a1555b4d43",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Familien Sternstunden im Mai",
+      "startDate": "2025-05-17T10:30:00.000+02:00",
+      "endDate": "2025-05-17T13:00:00.000+02:00",
+      "description": "\u003cp\u003eBei den Sternstunden für Familien erleben Sie mit Ihren Kindern Kirche neu!\u003cbr\u003eAm 17.05.2025 erwarten Sie folgende Aktionen:\u003cbr\u003eKressetöpfchen, Wunderblumen, Klanggeschichte, Frühlingsbingo, Impulse, Spiel und Spaß. \u003cbr\u003eEs gibt natürlich auch etwas zu Essen und zu Trinken. \u003c/p\u003e \u003cp\u003eAuf viele Teilnehmer*innen freut sich der Kindergottesdienstkreis.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "95b0e1c5-f332-46eb-951f-9498867f2d09",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/95b0e1c5-f332-46eb-951f-9498867f2d09/cziIXWn5ezBJQeM6onhwqLXIski6ud7fonuk1Ppu_as/1746753591/default/kath_kirche_bruchmuhlbach_gts_bm.jpg"
+        },
+        {
+          "@id": "323fcb8e-c9f3-4728-8b97-c40d920cf8f2",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/323fcb8e-c9f3-4728-8b97-c40d920cf8f2/LRrhZOjW-R53LIVEmgjprYQbtY-J2CZdUhCbFcggZFA/1746753590/default/kath_bruchmuhlbach_familien-sternstunde-mai-2025.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "7814954f-1770-45fa-a5b7-859233e43c06",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Kath. Pfarrheim Bruchmühlbach",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Friedhofstraße 1",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "7814954f-1770-45fa-a5b7-0ddfabe0a599",
+            "name": "Kath. Kirche St. Maria Magdalena Bruchmühlbach",
+            "telephone": "+49 6371 6198950",
+            "email": "pfarramt.landstuhl@bistum-speyer.de"
+          },
+          "geo": {
+            "longitude": 7.46541862460632,
+            "@id": "7814954f-1770-45fa-a5b7-69534707dc2a",
+            "@type": "GeoCoordinates",
+            "latitude": 49.3901595201168
+          }
+        }
+      ]
+    },
+    {
+      "@id": "3ba0231a-a5f2-4513-8901-c9b5409a8a81",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Bücherflohmarkt",
+      "startDate": "2025-05-06T14:00:00.000+02:00",
+      "endDate": "2025-05-30T18:00:00.000+02:00",
+      "description": "\u003cp\u003eBis Ende Mai darf noch bei unserem Bücherflohmarkt im Medienzentrum Miesau gestöbert werden.\u003cbr\u003eDienstags von 15:00 – 17:00 und freitags von 14:00 – 18:00 Uhr ist unser Flohmarkt für Sie geöffnet!\u003c/p\u003e \u003cp\u003eJedes Buch nur 1,- Euro, jede Zeitschrift 0,50 Euro.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "04282403-9a13-4895-b063-63734101bbbd",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/04282403-9a13-4895-b063-63734101bbbd/ur8mrzu1CNouCDJf5lHr369vsjTavnxt9Okmifi1X34/1746753590/default/bucher_pixabay_com.jpg"
+        },
+        {
+          "@id": "af48d829-39f2-4f25-9332-67a76fb2e7df",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/af48d829-39f2-4f25-9332-67a76fb2e7df/007622XKunX5QGCWr8O9O-sx52BWf7ud7jICqVK62Xc/1746753590/default/bucherflohmarkt_geht_weiter_2025.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "c1dd88b9-a837-4487-82ac-28e117fe657f",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Medienzentrum Miesau",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Raiffeisenstr. 4a",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "c1dd88b9-a837-4487-82ac-a0ac8ffafce0",
+            "name": "Medienzentrum Miesau - Amann",
+            "telephone": "+49 6372 6243613"
+          },
+          "geo": {
+            "longitude": 7.43630767354128,
+            "@id": "c1dd88b9-a837-4487-82ac-c420631d8553",
+            "@type": "GeoCoordinates",
+            "latitude": 49.4066642529451
+          }
+        }
+      ]
+    },
+    {
+      "@id": "cc289b56-73e3-4de0-b84e-7a532f1ce158",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Raus aus dem Haus",
+      "startDate": "2025-05-28T14:00:00.000+02:00",
+      "endDate": "2025-05-28T14:00:00.000+02:00",
+      "description": "\u003cp\u003eAls Gemeindeschwesterplus im Landkreis Kaiserslautern möchte ich alle Seniorinnen und Senioren zu gemeinsamen Spaziergängen einladen.\u003cbr\u003e\u003cbr\u003eDabei legen wir bei jedem Treffen auch die Aktionen fest, denen wir uns bei dieser Gelegenheit widmen möchten: Bewegungseinheiten, Gedächtnisübungen oder einfach „nur“ der gegenseitige Austausch. Dabei spielt es keine Rolle, ob man ohne Unterstützung, mit Rollator oder mit Gehhilfe unterwegs ist. \u003cbr\u003eWir laufen nach dem Prinzip - die/der Schwächste gibt das Tempo an.\u003cbr\u003eDie einzige Voraussetzung ist, dass Sie sich gerne unkompliziert mit anderen Menschen treffen möchten.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "874ce219-2f13-4e16-b024-ceb1e01609d2",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/874ce219-2f13-4e16-b024-ceb1e01609d2/UQM7qZ0eBA73iZYmfVrT4QZyZqYE1gIMKOPAqiKxIwI/1746753588/default/kirche_vogelbach.jpg"
+        },
+        {
+          "@id": "54d71316-9750-4a63-9e4e-798e620416e1",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/54d71316-9750-4a63-9e4e-798e620416e1/68HjIa1LnO6xlJHZDlZrI41O14gxT-Bdw6Z5XIBCPoY/1746753588/default/raus_aus_dem_haus_ev_gemeindehaus_vogelbach.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "2a8f9258-c385-4c00-baf7-722701115c1e",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Ev. Gemeindehaus Vogelbach",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Dorfstraße 15",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "2a8f9258-c385-4c00-baf7-fa6a9915c581",
+            "name": "Evangelisches Gemeindehaus Vogelbach",
+            "telephone": "(+49) 6372 6761",
+            "email": "pfarramt.bruchmuehlbach@evkirchepfalz.de"
+          },
+          "geo": {
+            "longitude": 7.42736126940309,
+            "@id": "2a8f9258-c385-4c00-baf7-9ee675f2bc32",
+            "@type": "GeoCoordinates",
+            "latitude": 49.3793608610349
+          }
+        }
+      ]
+    },
+    {
+      "@id": "439ea9ca-dcff-4f76-aece-187e55669c05",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Blutspenden. Leben retten.",
+      "startDate": "2025-04-30T17:00:00.000+02:00",
+      "endDate": "2025-04-30T20:00:00.000+02:00",
+      "description": "\u003cp\u003eBlut spenden beim Roten Kreuz! \u003c/p\u003e \u003cp\u003eBitte einen Termin vereinbaren unter www.blutspende.jetzt.\u003c/p\u003e \u003cp\u003e(Zuvor bitte mind. 1,5 - 2 Liter trinken und etwas essen. Vor Ort den Personalausweis mitbringen.)\u003c/p\u003e \u003cp\u003eDie Ortsgruppe des DRK Bruchmühlbach/Vogelbach freut sich über jeden einzelnen der mit seiner Blutspende hilft Leben zu retten! Herzlichen Dank.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "e9b29258-3a11-4732-b717-2a6bc26f902a",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/e9b29258-3a11-4732-b717-2a6bc26f902a/7Bw8OqpLUI0ivMwVFBc6yP4fa_VrdIAbHmVlfUFPFc0/1746074516/default/blutspende_drk.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "80ee9967-9c12-43d8-8fc0-0c697c3ef29e",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Turn- und Festhalle Bruchmühlbach",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Alte Straße 5",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "80ee9967-9c12-43d8-8fc0-8424e43a6b01",
+            "name": "Turn- und Festhalle Bruchmühlbach",
+            "telephone": "+496372 9220304",
+            "email": "info@vgbm.de"
+          },
+          "geo": {
+            "longitude": 7.45637757689056,
+            "@id": "80ee9967-9c12-43d8-8fc0-e0a808dd12b2",
+            "@type": "GeoCoordinates",
+            "latitude": 49.3848636262897
+          }
+        }
+      ]
+    },
+    {
+      "@id": "16485d1c-21ef-4f93-b6a8-c0af71dff444",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Bogenbauseminar auf Burg Lichtenberg",
+      "startDate": "2025-07-19T09:00:00.000+02:00",
+      "endDate": "2025-07-20T18:00:00.000+02:00",
+      "description": "\u003cp\u003eKosten: 249 € pro Person\u003c/p\u003e \u003cp\u003eTeilnehmer/innen: Frauen und Männer, sowie Jugendliche ab 16 Jahren ( bzw. 14 Jahren mit Begleitperson) maximal 10 Personen\u003c/p\u003e \u003cp\u003eLeistungen: Bereitstellung aller Materialien und der notwendigen Werkzeuge.\u003c/p\u003e \u003cp\u003eDie Rohlinge die vorhanden sind: englischer Langbogen, Normannen, Alemannen, Holmegard und Bambus als moderner laminierter Bogen sowie drei Pfeile.\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eDer Kurs findet im Freien statt.\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eDie Teilnahme ist auf 10 Personen begrenzt.\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eBeschreibung: Die Erfindung des Bogens ist für die Menschheit ein großer Fortschritt gewesen; er konnte aus der Entfernung lautlos Wild erlegen oder aus sicherem Abstand seine Habe verteidigen.\u003c/p\u003e \u003cp\u003eBis vor etwa 500 Jahren wurde der Bogen noch alltäglich für diese Zwecke in unseren Breiten eingesetzt, heute dient er noch für die Jagd und zum Sport denn es ist immer noch eine physische und psychische Herausforderung einen Pfeil ins Ziel zu setzen.\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eAn den zwei Tagen des Seminars stellen wir einen gebrauchsfertigen Bogen nach historischen Vorbildern her, zum Beispiel einen steinzeitl. Holmegard Bogen od. mittelalterlicher Wikinger- und englischer Langbogen. Moderner sind Bambusbögen die auch angeboten werden.\u003c/p\u003e \u003cp\u003eAls Bogenholz wird Hickory verwendet.\u003c/p\u003e \u003cp\u003eDrei Pfeile mit Befiederung und die Sehne vervollständigen die Ausrüstung, die dann auch im Probeschießen getestet werden kann.\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eZu der fachkundigen und handwerklichen Anleitungen werden während des Seminars auch allgemeinverständliche Hintergrundinformationen vermittelt.\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eNeben der Freude an handwerkliche Arbeit hat jeder/r Teilnehmer/in die Möglichkeit, einen Bogen herzustellen, der, was Größe, Zuggewicht und den Endschliff angeht, speziell auf Ihn/sie persönlich zugeschgnitten ist.\u003c/p\u003e \u003cp\u003eFür sein leibliches Wohl muß allerdings Jede/r selbst sorgen.\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eAnmeldung und Auskunft:\u003c/p\u003e \u003cp\u003e \u003c/p\u003e \u003cp\u003eVerwaltung Burg Lichtenberg\u003c/p\u003e \u003cp\u003eTelefon 06381 8429 (bitte erst ab 12.00 Uhr)\u003c/p\u003e \u003cp\u003eE-Mail: \u003ca href=\"mailto:burg-lichtenberg@kv-kus.de\"\u003eburg-lichtenberg@kv-kus.de\u003c/a\u003e\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "bcc44e48-59b5-4bcb-9bf4-7d99a45bfaf4",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/bcc44e48-59b5-4bcb-9bf4-7d99a45bfaf4/tiI3pNJAQqhOqcrQVXk4twD2AJ6ONTcWyvAyje1AjIE/1746074468/default/651c01d5-61af-4d3c-b1b8-958ec8f5197e.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "e4d3dcd7-837c-4c1e-9708-729870327af3",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Burg Lichtenberg/Burghäuschen",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Burgstr 17",
+            "postalCode": "66871",
+            "addressLocality": "Thallichtenberg",
+            "addressCountry": "DE",
+            "@id": "e4d3dcd7-837c-4c1e-9708-fad5e836e36c",
+            "name": "Burg Lichtenberg - Andreas Rauch",
+            "telephone": "+49 6381 8429",
+            "email": "andreas.rauch@kv-kus.de",
+            "url": "http://burglichtenberg.pfaelzerbergland.de/"
+          },
+          "geo": {
+            "longitude": 7.35545332084349,
+            "@id": "e4d3dcd7-837c-4c1e-9708-9e5904d19adf",
+            "@type": "GeoCoordinates",
+            "latitude": 49.5554456532099
+          }
+        }
+      ]
+    },
+    {
+      "@id": "d0d82ffe-9dd1-4204-a7f5-9d5f5815367b",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Maimarkt",
+      "startDate": "2025-05-01T11:30:00.000+02:00",
+      "endDate": "2025-05-01T19:30:00.000+02:00",
+      "description": "\u003cp\u003eDer traditionelle Maimarkt in Bruchmühlbach lockt mit kulinarischem Angebot der teilnehmenden Vereine und einem Kunsthandwerksmarkt. Als Highlight können Besucher Blasrohrschießen. Die Kinder sind beim Spiel- und Spaßangebot und auf dem Spielplatz besonders gut aufgehoben. Und die \"Schoppesänger\" sorgen mit Pfälzer Liedern für die passende musikalische Untermalung. \u003c/p\u003e \u003cp\u003e\u003c/p\u003e \u003cp\u003eEs freuen sich auf viele kleine und große Besucher:\u003c/p\u003e \u003cp\u003e- Schützenverein St. Hubertus Bruchmühlbach\u003c/p\u003e \u003cp\u003e- Kulturverein Bruchmühlbach-Miesau\u003c/p\u003e \u003cp\u003e- Unterhaltungsverein Bruchmühlbach\u003c/p\u003e \u003cp\u003e- Fußballvereien \"Viktoria\" 1919 Bruchmühlbach\u003c/p\u003e \u003cp\u003e- AWO Ortsverein Bruchmühlbach\u003c/p\u003e \u003cp\u003e- KjG Bruchmühlbach/Vogelbach\u003c/p\u003e \u003cp\u003e- Obst- und Gartenbauverein Bruchmühlbach\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "0cf85713-7fad-4617-a5ab-86a1eb4c49a3",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/0cf85713-7fad-4617-a5ab-86a1eb4c49a3/Tb4ZUFve2tecg9GHLXMsn7ID9Im22li4ryFip2ORH94/1745977039/default/maimarkt_bruchmuhlbach_2025.png"
+        }
+      ],
+      "location": [
+        {
+          "@id": "4ab8c0ea-5bc7-42c3-bbdd-d852e8231825",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Dorfplatz Bruchmühlbach",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Kaiserstraße 58",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "4ab8c0ea-5bc7-42c3-bbdd-501f702781ba",
+            "name": "Dorfplatz Bruchmühlbach"
+          },
+          "geo": {
+            "longitude": 7.46231,
+            "@id": "4ab8c0ea-5bc7-42c3-bbdd-34939cc0f809",
+            "@type": "GeoCoordinates",
+            "latitude": 49.38802
+          }
+        }
+      ]
+    },
+    {
+      "@id": "bfda6699-8046-4a0c-8e15-54b7fe489638",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Westricher Sommerfest",
+      "startDate": "2025-07-04T10:00:00.000+02:00",
+      "endDate": "2025-07-06T10:00:00.000+02:00",
+      "description": "\u003cp\u003eDrei Tage Kirmes und Volksfest in Bruchmühlbach-Miesau! Das traditionelle Westricher Sommerfest bietet ein abwechslungsreiches Programm von Freitag bis Sonntag. Zum Abschluss erwartet die Besucher das große Brilliantfeuerwerk.\u003c/p\u003e \u003cp\u003eGroßer Rummelplatz! Ausreichend Parkplätze! Cocktail-Bar! Essen und Getränke in reicher Auswahl!\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "399f2b80-2ef5-47df-9ca6-5048940c4b6b",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/399f2b80-2ef5-47df-9ca6-5048940c4b6b/szeTrVM3yrx807M2b7GPCI-hNE3kxNFJs_fPvhAOJfk/1745895377/default/huttenrocker_beim_westricher_sommerfest.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "0cdf4e22-b4b9-4521-83f0-b80f7b5dc357",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Werner-Odenwald-Platz, Bruchmühlbach",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Waldstraße 6",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "0cdf4e22-b4b9-4521-83f0-3042e3595ac8",
+            "name": "Werner-Odenwald-Platz"
+          },
+          "geo": {
+            "longitude": 7.44575348869533,
+            "@id": "0cdf4e22-b4b9-4521-83f0-54ce0fbe237b",
+            "@type": "GeoCoordinates",
+            "latitude": 49.3824486757108
+          }
+        }
+      ]
+    },
+    {
+      "@id": "bc782fe4-cf95-4ee9-85ab-f0ac580a9e92",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Geführte E-Bike Tour",
+      "startDate": "2025-05-23T10:00:00.000+02:00",
+      "endDate": "2025-09-26T10:00:00.000+02:00",
+      "description": "\u003cp\u003eGeführte E-Bike Tour\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "b382ec9d-c7d5-46b9-b6da-6120fedc0c6a",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/b382ec9d-c7d5-46b9-b6da-6120fedc0c6a/6wDizds4BLvpbfq64fJquREEXWIzyNrwmgSVZ2k5go4/1745895308/default/e-bike_23_5_25.jpg"
+        },
+        {
+          "@id": "b7b2c97d-21c2-46ad-8c04-7f30ddf8fe67",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/b7b2c97d-21c2-46ad-8c04-7f30ddf8fe67/c_lRSHvEGILLReNKI-7W8nyier_Ns3CVLRWYgCcfPyc/1745895308/default/e-bike_25_7_25.jpg"
+        },
+        {
+          "@id": "ddc261ae-8f13-4297-ad01-6ac73b03e184",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/ddc261ae-8f13-4297-ad01-6ac73b03e184/jD0NwCMOexjlPV-5xTddTArrUw41nsLf84Nn-RbQwgw/1745895308/default/e-bike_26_9_25-1.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "a04d0bb4-1e0a-4d57-ad60-509f0c784caf",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Wolfstein Bahnhof",
+          "geo": {
+            "longitude": 7.61031478851319,
+            "@id": "a04d0bb4-1e0a-4d57-ad60-bc5e789bac83",
+            "@type": "GeoCoordinates",
+            "latitude": 49.5846110461217
+          }
+        }
+      ]
+    },
+    {
+      "@id": "6b47b138-38a0-4634-8901-f73c1c80489a",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Passionskonzert",
+      "startDate": "2025-04-19T17:00:00.000+02:00",
+      "endDate": "2025-04-20T17:00:00.000+02:00",
+      "description": "\u003cp\u003eDie Freie ev. Christengemeinde präsentiert auch in diesem Jahr ein Passionskonzert. In der kath. Kirche St. Maria Magdalena in Bruchmühlbach können die Konzertbesucher den Klängen lauschen. Das Chor- und Symphonieorchester lädt hierzu mit freiem Eintritt ein. \u003c/p\u003e",
+      "image": [
+        {
+          "@id": "5cf9c349-5df1-4692-bcb5-6089c0d2b232",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/5cf9c349-5df1-4692-bcb5-6089c0d2b232/WK9NPECbFwFNHiVYIA4eA-uzgtDWZ0bsEmSEgGsOw10/1746591745/default/passionskonzert.png"
+        }
+      ],
+      "location": [
+        {
+          "@id": "0221c4c9-f246-4c71-9348-b6cf8237a4e2",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Kath. Kirche St. Maria Magdalena Bruchmühlbach",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Friedhofstraße 1",
+            "postalCode": "66892",
+            "addressLocality": "Bruchmühlbach-Miesau",
+            "addressCountry": "DE",
+            "@id": "0221c4c9-f246-4c71-9348-3e821a333d7d",
+            "name": "Kath. Kirche St. Maria Magdalena Bruchmühlbach",
+            "telephone": "+49 6371 6198950",
+            "email": "pfarramt.landstuhl@bistum-speyer.de"
+          },
+          "geo": {
+            "longitude": 7.46540243278196,
+            "@id": "0221c4c9-f246-4c71-9348-5a0ef6d444ce",
+            "@type": "GeoCoordinates",
+            "latitude": 49.3901679447169
+          }
+        }
+      ]
+    },
+    {
+      "@id": "9685fbbe-1bb9-48cc-98fb-14d6b032b7e3",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Muttertagskonzert mit den Hunsrücker Spitzbuwe",
+      "startDate": "2025-05-11T11:00:00.000+02:00",
+      "endDate": "2025-05-11T11:00:00.000+02:00",
+      "description": "\u003cp\u003eEin schönes Konzert auf dem Veldenzplatz in Lauterecken.\u003c/p\u003e \u003cp\u003eJede Mama erhält ein kleines Präsent.\u003c/p\u003e \u003cp\u003eFür Essen und Getränke ist bestens gesorgt.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "9c2c3e1c-84e2-4df6-b56b-80a44127c628",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/9c2c3e1c-84e2-4df6-b56b-80a44127c628/-VS5bew2PIwoLbn08NtWVtADsZkhzT6rB9d738Lpjms/1745544954/default/muttertag_2025.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "2aa7a54c-bc27-484a-8e3c-c4434df97888",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Veldenzplatz Lauterecken",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Schulstraße 6a",
+            "postalCode": "67742",
+            "addressLocality": "Lauterecken",
+            "addressCountry": "DE",
+            "@id": "2aa7a54c-bc27-484a-8e3c-4c0ed5fde117",
+            "name": "Verbandsgemeindeverwaltung Lauterecken-Wolfstein - Kathrin Bürthel",
+            "telephone": "(0049) 6382791142",
+            "email": "tourismus@vg-lw.de",
+            "url": "http://vg-lw.de"
+          },
+          "geo": {
+            "longitude": 7.59188,
+            "@id": "2aa7a54c-bc27-484a-8e3c-2882391a98a4",
+            "@type": "GeoCoordinates",
+            "latitude": 49.6493922514641
+          }
+        }
+      ]
+    },
+    {
+      "@id": "cde5b23f-72bf-487a-99ab-735aa08949f3",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Time Travel",
+      "startDate": "2025-05-01T00:00:00.000+02:00",
+      "endDate": "2025-06-29T01:30:00.000+02:00",
+      "description": "\u003cp\u003eMit Pferd und VR-Brille durch die Zeit – Time Travel Otterberg begeistert mit immersivem Geschichtserlebnis\u003c/p\u003e \u003cp\u003eIn Otterberg sorgt ein außergewöhnliches Tourismusangebot für Begeisterung: Die \"Time Travel Tour\" lässt Besucherinnen und Besucher Geschichte auf völlig neue Weise erleben – mit Virtual-Reality-Brille und einem von Pferden gezogenen Planwagen geht es auf eine Zeitreise durch die bewegte Historie der Stadt.\u003c/p\u003e \u003cp\u003eWas zunächst wie ein gemütlicher Ausflug beginnt, entpuppt sich schnell als eindrucksvolle Entdeckungsreise in die Vergangenheit. Auf der rund 90-minütigen Tour durch Otterberg tauchen die Teilnehmenden mithilfe modernster VR-Technologie in bedeutende Epochen ein: vom klösterlichen Leben im Jahr 1254 bis zur Entwicklung zur Wallonenstadt im Jahr 1615. Die Kombination aus virtueller Bildwelt, realer Bewegung des Planwagens und authentischem Geräuschkulisse schafft ein besonders intensives Erlebnis.\u003c/p\u003e \u003cp\u003eEin Höhepunkt der Tour ist der Besuch der Otterberger Abteikirche, deren imposante Sandsteinarchitektur bis heute fasziniert. Hier endet die virtuelle Reise – und geht in ein reales Raumerlebnis über: Die Besuchenden betreten das monumentale Bauwerk und erleben die Geschichte mit eigenen Augen und Sinnen.\u003c/p\u003e \u003cp\u003e„So etwas haben wir noch nie erlebt“, berichten viele Teilnehmende. „Wir waren mittendrin statt nur dabei – eine beeindruckende Mischung aus Tradition, Technologie und echter Atmosphäre.“\u003c/p\u003e \u003cp\u003eDie \"Time Travel Tour\" richtet sich an Einzelbesucher und Gruppen. Für Letztere werden individuelle Termine angeboten.\u003c/p\u003e \u003cp\u003eTermine sind buchbar unter:\u003cbr\u003e \u003ca href=\"https://www.otterbach-otterberg.de/tourismus-freizeit/gaestefuehrungen/time-travel/\"\u003ewww.otterbach-otterberg.de/tourismus\u003cbr\u003e \u003c/a\u003e Weitere Informationen: 06301 / 607800\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "dfc47ff6-45a1-47c4-b8e5-a0b451ce1480",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/dfc47ff6-45a1-47c4-b8e5-a0b451ce1480/elc5VzD90NmDMSm0QEcT40ojZ7OsnJ3cgvZBZXZ3P8c/1745544918/default/klosterzeitvegeationkl.png"
+        },
+        {
+          "@id": "afcd8913-25db-4b8a-9e01-f8ef21f1285d",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/afcd8913-25db-4b8a-9e01-f8ef21f1285d/of65hY7-e6RxuPDoYXBYqguRNUkG38eecemt-hpwbMI/1745544918/default/kutsche_mit_logo.jpg"
+        },
+        {
+          "@id": "0a77ab81-8662-4eda-b733-b733e06b9f42",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/0a77ab81-8662-4eda-b733-b733e06b9f42/x7-tIKUBA_ZtIk_YXV99goaF-l8mJepx96gwsac6_V8/1745544918/default/time_travel_huifkar.jpg"
+        },
+        {
+          "@id": "1e9b21ae-6dba-460d-b8e2-3e946d26f226",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/1e9b21ae-6dba-460d-b8e2-3e946d26f226/JW26mxJUrjeEZ_sHMgamg8ShJFxJbqx-o6TsFf59Nyc/1745544918/default/middeleeuws_marktplein.png"
+        }
+      ],
+      "location": [
+        {
+          "@id": "4604f385-0f2c-4208-a79c-6894fb846b76",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Stadthalle Otterberg",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Hauptstr. 27",
+            "postalCode": "67697",
+            "addressLocality": "Otterberg",
+            "addressCountry": "DE",
+            "@id": "4604f385-0f2c-4208-a79c-e0d96380f2e9",
+            "name": "Verbandsgemeinde Otterbach-Otterberg - Carola Ibrom",
+            "telephone": "+496301607800",
+            "email": "tourist-Info@otterbach-Otterberg.de",
+            "url": "http://www.otterbach-otterberg.de"
+          },
+          "geo": {
+            "longitude": 7.77366880811769,
+            "@id": "4604f385-0f2c-4208-a79c-84558f678b5a",
+            "@type": "GeoCoordinates",
+            "latitude": 49.5009060827826
+          }
+        }
+      ]
+    },
+    {
+      "@id": "a3601b7b-2c62-4653-95ac-37cde7844fac",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Geführte E-Bike Tour",
+      "startDate": "2025-04-25T10:00:00.000+02:00",
+      "endDate": "2025-08-22T10:00:00.000+02:00",
+      "description": "\u003cp\u003egeführte e-Bike Tour\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "96e79095-ea5d-4415-b0e5-4f089e2987a7",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/96e79095-ea5d-4415-b0e5-4f089e2987a7/vCVwyQAmtc4tlG-vpGSO8uUbuCiS93dVM7Qq7QNd-_I/1745370368/default/e-bike_25_4_25.jpg"
+        },
+        {
+          "@id": "063bc626-c745-41c6-a910-fa081901446e",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/063bc626-c745-41c6-a910-fa081901446e/E8mKAhri5UOws4-KsWX6_ajTOifXYf55ddxmml54ZjI/1745370368/default/e-bike_27_6_25.jpg"
+        },
+        {
+          "@id": "58af1219-d7c1-4c8e-b3be-8265bf10e763",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/58af1219-d7c1-4c8e-b3be-8265bf10e763/tKGGGYrCHKEzXwb2pjXi5pFigLFNSIZOmXoPxOYdTNk/1745370368/default/e-bike_22_8_25.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "722bbabc-4b1c-4d8f-aa92-a23e850aa0ee",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Lauterecken Bahnhof",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Schulstraße 6a",
+            "postalCode": "67742",
+            "addressLocality": "Lauterecken",
+            "addressCountry": "DE",
+            "@id": "722bbabc-4b1c-4d8f-aa92-2a731d0e3971",
+            "name": "Verbandsgemeindeverwaltung Lauterecken-Wolfstein - Kathrin Bürthel",
+            "telephone": "(0049) 6382791142",
+            "email": "tourismus@vg-lw.de",
+            "url": "http://vg-lw.de"
+          },
+          "geo": {
+            "longitude": 7.58993,
+            "@id": "722bbabc-4b1c-4d8f-aa92-4efff1e940c2",
+            "@type": "GeoCoordinates",
+            "latitude": 49.65298
+          }
+        }
+      ]
+    },
+    {
+      "@id": "a6576dee-9172-41cb-ab3e-45cc16029008",
+      "@type": [
+        "Event",
+        "dcls:Event"
+      ],
+      "name": "Geführte E-Bike Touren",
+      "startDate": "2024-05-24T10:00:00.000+02:00",
+      "endDate": "2024-09-27T10:00:00.000+02:00",
+      "description": "\u003cp\u003eDie Streckenlänge beträgt jeweils ca. 60 km und führt quer durch die Verbandsgemeinde. Geführt werden die Touren von der zertifizierten Gästeführerin Petra Rübel. Mitzubringen ist das eigene E-Bike, ein Unkostenbeitrag von 5,- € pro Person wird erhoben und ist vor Ort zahlbar.\u003c/p\u003e \u003cp\u003eEine vorherige Anmeldung ist notwendig.\u003cbr\u003eDie Teilnahme erfolgt in der Reihenfolge der Anmeldungen und ist begrenzt. \u003cbr\u003e\u003cbr\u003e\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "d41e5e8c-0b7b-4ed7-aee2-16457f14753d",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/d41e5e8c-0b7b-4ed7-aee2-16457f14753d/7NK4KIB5CpVeaXYJwKLZ1CuxML2KAlZvLs8gVWj8ttE/1745370336/default/blick_auf_wolfstein.jpg"
+        },
+        {
+          "@id": "1a5f1e73-2aae-4fb1-bec0-10ad53ab33dd",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/1a5f1e73-2aae-4fb1-bec0-10ad53ab33dd/XLsI5ZslpOd0vvigzQk8JHzVh87rwPlZ5BiRtgDSuWM/1745370336/default/rad_sonnenuntergang.jpg"
+        },
+        {
+          "@id": "6cb5c496-7cc0-42f5-9369-bc494cbeb2aa",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/6cb5c496-7cc0-42f5-9369-bc494cbeb2aa/m2WzHC0zeDFJ6jS-gPj7Z1Z3ZzsJSSZjh5DlnlTqtyc/1745370336/default/offenbach-hundheim.jpg"
+        }
+      ],
+      "location": [
+        {
+          "@id": "94bf8a63-c248-4ae2-ba3e-5807b54126c6",
+          "@type": [
+            "Place",
+            "TouristAttraction",
+            "dcls:POI"
+          ],
+          "name": "Bahnhof Lauterecken",
+          "geo": {
+            "longitude": 7.59118730674436,
+            "@id": "94bf8a63-c248-4ae2-ba3e-b4c6c1a2c6ea",
+            "@type": "GeoCoordinates",
+            "latitude": 49.6531624857627
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "total": 1054,
+    "pages": 43,
+    "collection": {
+      "id": "fb2fc71b-74dc-4056-8fc3-569c4dec4cd6",
+      "name": "Veranstaltungen Kusel",
+      "slug": "veranstaltungen-kusel"
+    }
+  },
+  "links": {
+    "next": "https://data.rlp-tourismus.de/api/v4/endpoints/fb2fc71b-74dc-4056-8fc3-569c4dec4cd6?fields=name%2Cdescription%2Cimage.contentUrl%2CstartDate%2CendDate%2Clocation.name%2Clocation.name%2Clocation.address%2Clocation.geo\u0026include=image%2Clocation\u0026page%5Bnumber%5D=2\u0026page%5Bsize%5D=25"
+  }
+}

@@ -1,0 +1,1601 @@
+{
+  "@context": [
+    "https://schema.org/",
+    {
+      "@base": "https://data.rlp-tourismus.de/api/v4/universal/",
+      "@language": "de",
+      "skos": "https://www.w3.org/2009/08/skos-reference/skos.html#",
+      "dct": "http://purl.org/dc/terms/",
+      "cc": "http://creativecommons.org/ns#",
+      "dc": "https://schema.datacycle.at/",
+      "dcls": "https://data.rlp-tourismus.de/schema/",
+      "odta": "https://odta.io/voc/",
+      "sdm": "https://smartdatamodels.org/",
+      "alps": "http://json-schema.org/draft-07/schema/destinationdata/schemas/2022-04/datatypes#/definitions/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "20c7b124-fec5-49bd-8b62-5db990c3fd92",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Warmfreibad \"Wolfstein\"",
+      "description": "Hier gibt es viel Platz zum Baden, Erholen und Spielen für große und kleine Badegäste.",
+      "image": [
+        {
+          "@id": "7dcee37f-a91c-4e38-8b53-35e0cba8ce28",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/7dcee37f-a91c-4e38-8b53-35e0cba8ce28/OgZMwgn4p5gEmyaaaOfHGiN-EllDiqvRWkQ0J-szZsY/1745690633/default/schwimmbad_in_wolfstein.jpg"
+        },
+        {
+          "@id": "aac065e7-74b7-4f4a-ac60-8cfe1c326256",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/aac065e7-74b7-4f4a-ac60-8cfe1c326256/8UyiO0ASucXmzcO4DZXp2lAPtsOks4omf5KJw63VzcU/1745690633/default/barrierefreie_toilette_mit_haltegriffen.jpg"
+        },
+        {
+          "@id": "aeec03cf-d046-410c-bf91-16b46db4f437",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/aeec03cf-d046-410c-bf91-16b46db4f437/LF7NxZqdfh2CwjWQKOC3VHMPEpVdPBMwq49vgC360Ig/1745690633/default/weg_zum_schwimmbad.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "a0576b3d-ba61-45f3-bab4-58eba784c024",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Warmfreibad \" Jettenbach\"",
+      "description": "\u003cp\u003eDas ortseigene und solarbeheizte Freibad Jettenbach eröffnet am Samstag, 31. Mai die Saison.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "e9e8c96f-b46a-4ee6-ab37-67f504779d61",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/e9e8c96f-b46a-4ee6-ab37-67f504779d61/yRHI4xHkyCTU5BiG857QXOJoE3g1pEJkP9Gtjc2138Y/1747964455/default/freibad_jettenbach.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "0e868118-6267-4ad6-99a3-f6f7fbcfb262",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Warmfreibad \"Rüllberg\"",
+      "description": "\u003cp\u003eDas Freibad liegt an der B 270 (Richtung Idar-Oberstein) auf der Gemarkung der Ortsgemeinde Homberg. \u003cbr\u003e\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "8a157018-b591-4429-afff-5877ca343afa",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/8a157018-b591-4429-afff-5877ca343afa/GO45R1oJXPy33HYkJUrvDNPOt5vyaOiCPkZYqkL4bxE/1739368500/default/warmfreibad_ruellberg.jpg"
+        },
+        {
+          "@id": "765acb36-e789-4b7f-88bd-d336f09e15cb",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/765acb36-e789-4b7f-88bd-d336f09e15cb/hAQipVblUIztd7IyCRuJfqXm0r3LzTOEVn_dzohQa2c/1739368500/default/warmfreibad_ruellberg.jpg"
+        },
+        {
+          "@id": "e504228b-ca89-466a-bf11-de90f33f8c40",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/e504228b-ca89-466a-bf11-de90f33f8c40/LVbTrwxUlLlBHDgL33CMY0fj3_-vJnG8TLFeDFw_syw/1739368500/default/warmfreibad_ruellberg.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "82bd78f7-0559-4883-8990-e058a79aaabe",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Jugendfreizeit- und Bildungsstätte Bambergerhof",
+      "description": "\u003cp\u003eDie Jugendfreizeiteinrichtung Bambergerhof ist eine Einrichtung des Landkreises Kusel.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "e76dda1d-21f9-400e-9a24-729edfbc1f2e",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/e76dda1d-21f9-400e-9a24-729edfbc1f2e/_3pott9JYtnERsuEZ3EYqDOtwgUvaqjBDbeuS83bQZM/1739368500/default/bambergerhof.jpg"
+        },
+        {
+          "@id": "55ac2a9e-3163-4b2d-bf00-f54820ff3e24",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/55ac2a9e-3163-4b2d-bf00-f54820ff3e24/pt5HZN2WJzzXrZ49gL6kJNxfPwbUj7mYuWhT_jR0OJs/1739368500/default/bambergerhof.jpg"
+        },
+        {
+          "@id": "b38e3d4f-7c22-41dc-8a69-be3ca9751119",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/b38e3d4f-7c22-41dc-8a69-be3ca9751119/RCy-drax-uDlDX4N3k0sDLkQkuLxXUx7bMismB_DXBE/1739368500/default/barrierefreier_sanitaerraum.jpg"
+        },
+        {
+          "@id": "06e49372-a54d-4762-a1ce-0ebe7fc59419",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/06e49372-a54d-4762-a1ce-0ebe7fc59419/__RGP1XxyEz3iG4xKpHdcbBCLJESPPvJb9SGA6GSgg8/1739368500/default/behindertenparkplatz.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "74c64f11-14c1-4c72-9fa2-4cc1c40dace2",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Perlenhof",
+      "description": "\u003cp\u003eHerzlich Willkommen auf dem Perlenhof! \"Nirgendwo ist irgendwo so schön wie hier\".\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "dcb08d43-7247-4f30-8076-924b530fa5f5",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/dcb08d43-7247-4f30-8076-924b530fa5f5/M4MDCFl0psvXtQ7eK9BLbdzpdbbxFgehPPbzHASvbI8/1739368500/default/perlenhof.jpg"
+        },
+        {
+          "@id": "db597228-2ff4-46b8-8003-0764b5e7be0d",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/db597228-2ff4-46b8-8003-0764b5e7be0d/aa8qmeIPbkUfJRSHqmpMDtWA2_7GXyYyWNqmB-ubgIc/1739368500/default/terrasse_vor_gemeinschaftshaus.jpg"
+        },
+        {
+          "@id": "92264109-a1a7-40ed-8bb4-fc6618f9f471",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/92264109-a1a7-40ed-8bb4-fc6618f9f471/cPjduC1KSWW86ME1OVC3byGdhuw-d0KRHgFyAdxwIp8/1739368500/default/gemeinschaftshaus.jpg"
+        },
+        {
+          "@id": "4a668568-e21f-4d29-beba-3467e1125b33",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/4a668568-e21f-4d29-beba-3467e1125b33/sCYqkFNxftPGSvzTwTwGV0dD5vnZ7jot2g6vjC9NV5c/1739368500/default/haus_koralle.jpg"
+        },
+        {
+          "@id": "f466ae22-e6fa-4245-adc4-60ddc3ba7f46",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/f466ae22-e6fa-4245-adc4-60ddc3ba7f46/zSIW_VNrt6IICPVLTOZGAHZWOEt3fc2C9KlQfDHhwCI/1739368500/default/haus_koralle_2.jpg"
+        },
+        {
+          "@id": "435bc947-32a1-42ef-a9a8-caa8a01e1399",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/435bc947-32a1-42ef-a9a8-caa8a01e1399/JQpMgp86p-s2XBI5e26-0FZVUrANz1sLuTzprEmCsJY/1739368500/default/haus_koralle_3.jpg"
+        },
+        {
+          "@id": "7c99af9f-8597-4e8c-b2ee-98f5dc8c2ddb",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/7c99af9f-8597-4e8c-b2ee-98f5dc8c2ddb/sMVKlN7lQnjlnNXa3LUA8VeYenrUtu2Fn6mePeynVUY/1739368500/default/haus_koralle_4.jpg"
+        },
+        {
+          "@id": "a35820a7-72dc-462f-893b-1950e5ff6b94",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/a35820a7-72dc-462f-893b-1950e5ff6b94/rV7ETHsGNS24jUQ4tyC7Yo9jLce_UqibUKJ0GxPeJyY/1739368500/default/haus_koralle_5.jpg"
+        },
+        {
+          "@id": "2c5baec8-f580-410b-8abf-ec0c8e793aa7",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/2c5baec8-f580-410b-8abf-ec0c8e793aa7/2oEizZtjESsZUihXPFOftFNGpO5rW2HcVJVaIjkPZ70/1739368500/default/haus_bernstein.jpg"
+        },
+        {
+          "@id": "3128c342-fb92-4987-b9fa-9040f948e6c6",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/3128c342-fb92-4987-b9fa-9040f948e6c6/M2Vv3FeKBvepVVWeHUJFU7Y2Pz9rkb43GjR5Ew6KKo8/1739368500/default/haus_benrstein_2.jpg"
+        },
+        {
+          "@id": "9113db66-6fb5-4a39-830a-4a236cc1009f",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/9113db66-6fb5-4a39-830a-4a236cc1009f/jC-w9H_m8esTwtIbnFkJESImbkrQoOb0hbi1lUAHjS4/1739368500/default/haus_bernstein_3.jpg"
+        },
+        {
+          "@id": "25317a01-d268-41df-90a4-007cebcd2d05",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/25317a01-d268-41df-90a4-007cebcd2d05/JFVmnwU_dxrM1ocx1Qnjwpui2SkL30fZ-xKsCiYB89E/1739368500/default/haus_bernstein_4.jpg"
+        },
+        {
+          "@id": "5d81d595-1089-4c2f-a364-6260ce7869e5",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/5d81d595-1089-4c2f-a364-6260ce7869e5/ZxxhrbOZPIhoIrqGooKFDao-WDGipLDVFqUGnGsprqI/1739368500/default/haus_amethyst.jpg"
+        },
+        {
+          "@id": "649362c0-56aa-4586-b2d3-a30d51198c09",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/649362c0-56aa-4586-b2d3-a30d51198c09/b07ZYDVxM3C2AFNlYP_8CNgZAnCaD5OpZKjCjRb9ecM/1739368500/default/haus_amethyst_2.jpg"
+        },
+        {
+          "@id": "a0006fec-602d-4da4-88c0-cfbd32fe7817",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/a0006fec-602d-4da4-88c0-cfbd32fe7817/XZ7y9gWoPAxgX1LzDntYIuC8TYckiXKqjBP2LGOkYCA/1739368500/default/haus_amethyst_3.jpg"
+        },
+        {
+          "@id": "8e2d4f42-e767-4f5e-86ec-1ba676a0dc42",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/8e2d4f42-e767-4f5e-86ec-1ba676a0dc42/OcvD1rKfi5n5wWTD0LnAKC4_f3Zn6RcaWuR1Sg179Wo/1739368500/default/aussicht_perlenhof.jpg"
+        },
+        {
+          "@id": "7f065893-90f5-42bf-9519-1416c0410450",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/7f065893-90f5-42bf-9519-1416c0410450/UEdmHBnB7aM_zpjSBHSR7gv_WFobk2xek8fE71LyFKg/1739368500/default/aussicht_perlenhof_2.jpg"
+        },
+        {
+          "@id": "d4926a44-afc5-4a69-83af-42b72bd4f8f3",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/d4926a44-afc5-4a69-83af-42b72bd4f8f3/A9kFUlH18a0z6V_uxH-I_V3iUr4sUw5Jx1DfVGZbxWs/1739368500/default/perle_stein.jpg"
+        },
+        {
+          "@id": "222b6c7f-eb50-4221-bac3-724738069d5b",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/222b6c7f-eb50-4221-bac3-724738069d5b/MYNgJgu1gzgQdLjCv-vdnqFINZVMynD5bhec3E6KlUg/1739368500/default/perle_stein_2.jpg"
+        },
+        {
+          "@id": "612554eb-9cd2-4d0d-88fd-f8cadf538b23",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/612554eb-9cd2-4d0d-88fd-f8cadf538b23/oQCJI2APpPHdMVlPDyfYYRAY8esFfUAxR0HS56FBYlU/1739368500/default/perle_stein_3.jpg"
+        },
+        {
+          "@id": "bef1c9f2-9926-4c4a-9549-dfdb7a78e8e9",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/bef1c9f2-9926-4c4a-9549-dfdb7a78e8e9/HP2owkRl3ABxn_X5aE0cKgjKfT6lIOH0eAr1Tsxpxw8/1739368500/default/perlenhoffest_2023.jpg"
+        },
+        {
+          "@id": "48a82527-a69c-4083-a716-fad47bebcf05",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/48a82527-a69c-4083-a716-fad47bebcf05/2I34hHDVXpJ5unqJTUAHHC0xng4ftoARAHR1KGNmGrk/1739368500/default/perlenhoffest_2023.jpg"
+        },
+        {
+          "@id": "7fc86318-4b97-4d81-bcc8-22c0d33410f0",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/7fc86318-4b97-4d81-bcc8-22c0d33410f0/nYRlAzNTEumO1FRclfPnKiSFEX5-PnEnTtSnecn-rZs/1739368500/default/auszeichnung_wanderreitstation.jpg"
+        },
+        {
+          "@id": "0789badb-55e0-4cc7-a801-445f7d3400e5",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/0789badb-55e0-4cc7-a801-445f7d3400e5/A1C6jhvSlxniK0dY7tQq06yhwcp-MAHNlNBlZ4Dyejo/1739368500/default/perlenhof.jpg"
+        },
+        {
+          "@id": "8f11bcf1-5d19-4324-9833-f21318c5c793",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/8f11bcf1-5d19-4324-9833-f21318c5c793/yiExNFQvod5wZ0Xka2yJrxLHmNCoT2e5NDhDp8GdPO0/1739368500/default/perlenhof1.jpg"
+        },
+        {
+          "@id": "deb64a1a-b836-486f-b1ba-1abce3090b17",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/deb64a1a-b836-486f-b1ba-1abce3090b17/v-4Xmhmv9phzJA_hSzcmGcXphSUwJG2DN-7oJx8Eqyg/1739368500/default/perlenhof2.jpg"
+        },
+        {
+          "@id": "0888b736-a7aa-465b-b1b8-6e788047d24f",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/0888b736-a7aa-465b-b1b8-6e788047d24f/1UkG61goeNHBz4bK05fHiMDYfwKpdcOZ6M0mtJXO5iU/1739368500/default/perlenhof3.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "27594e9f-7565-42c1-ba78-786be19df57e",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Staubsaugermuseum",
+      "description": "\u003cp\u003eDas Museum in Bruchmühlbach-Miesau zeigt über Jahrzehnte die Entwicklung der Staubsaugergeschichte.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "769ae351-ce15-4408-8c19-5cd665ba817c",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/769ae351-ce15-4408-8c19-5cd665ba817c/gE-jFzcUH-rQLmvMB8BKZqgXKf9LiECjKJB2jdyFNNQ/1746902137/default/staubsaugermuseum_miesau.jpg"
+        },
+        {
+          "@id": "04a5e428-000f-41ba-86db-519f65442806",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/04a5e428-000f-41ba-86db-519f65442806/RQAoraThwxIyD8zlq584IK7j5T1GaOb5unBtGBnfgNM/1746902137/default/staubsaugermuseum_miesau.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "73c0dee3-02c3-4b89-983a-47107a07a1a3",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Heidenburg Kreimbach-Kaulbach",
+      "description": "\u003cp\u003eNach dem Aufstieg zur Heidenburg erwartet Sie eine traumhafte Aussicht.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "baad05a2-294d-499f-b6d3-2966a5c6a2e5",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/baad05a2-294d-499f-b6d3-2966a5c6a2e5/sReaRZSEnB6utpKG3UB29yAkTMQJF5gxV8Z_QcCFBoY/1746488233/default/aussichtsturm.jpg"
+        },
+        {
+          "@id": "77d5f90f-cfa8-402e-a08c-11a733ee08c4",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/77d5f90f-cfa8-402e-a08c-11a733ee08c4/QKAhlDVjKWm4vu-J-6EUXeAa9nEEikqq8U4jxdT9EI8/1746488233/default/ausblick.jpg"
+        },
+        {
+          "@id": "529b9f7c-fb91-4b12-a3ff-6ec510027de1",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/529b9f7c-fb91-4b12-a3ff-6ec510027de1/Zjcg43bxejEUP0X_ODHZgxrdymh0lwjuHJf7IVkPjJk/1746488233/default/kanalinfo_heidenburg_kreimbach-kaulbach-1.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "fd8991e3-2d46-42e1-b921-f301705f5dab",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Wartturm bei Ohmbach",
+      "description": "\u003cp\u003eDer auf Ohmbacher Gemarkung stehende 7,50 m hohe Nachbau eines mittelalterlichen Wartturmes wurde im Jahre 2005 unterhalb des 375 m hohen Aussichtsberges \"Wartenstein\" errichtet. \u003c/p\u003e",
+      "image": [
+        {
+          "@id": "b1242ffd-6a69-4724-95cf-5b9e9620ad9c",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/b1242ffd-6a69-4724-95cf-5b9e9620ad9c/YePnaU0bH_E-Y5N3UcawpnWcRO9OcbXeAlJ1R6cvhcI/1746295314/default/sicht_auf_ohmbach_1.jpeg"
+        },
+        {
+          "@id": "1093bb29-0f50-4641-ad1c-48008ae1e2d3",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/1093bb29-0f50-4641-ad1c-48008ae1e2d3/Is8OgCHSiFE_TT12Ti964pocziNnoOBWRAG_DbuB9h0/1746295314/default/sicht_auf_ohmbach_2.jpeg"
+        },
+        {
+          "@id": "91e5cdd3-7a31-40cd-9c6a-0881e39f9b5d",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/91e5cdd3-7a31-40cd-9c6a-0881e39f9b5d/iPpRgZb81nd9AGoyds9e8k5kS1EHI_HCTFnJSK-1Mas/1746295314/default/wartturm_bei_ohmbach.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "cce75f9f-4e9e-40fb-95f2-0c80938efdc3",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Barrierefreier Mehrgenerationenplatz St. Julian",
+      "description": "\u003cp\u003eDer barrierefreie Mehrgenerationenplatz in St. Julian liegt direkt am Glan-Blies-Weg und an der Draisinenstrecke.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "12921632-2aea-4d0b-982e-5f1f9269d064",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/12921632-2aea-4d0b-982e-5f1f9269d064/re50WonGjr6vwoC_Re6EGB9L4JVOzGo3fP2DT8dOK98/1746902296/default/ansicht_von_oben.jpeg"
+        },
+        {
+          "@id": "19e34fc4-982c-4c07-bf88-7882c5545d58",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/19e34fc4-982c-4c07-bf88-7882c5545d58/ET1kaS40oSpb6mavl6BFM9E6ucSlzgHWZpBmBjFFscs/1746902297/default/fitnessparcours.jpg"
+        },
+        {
+          "@id": "eaaa4526-919a-491e-9052-f793d29a386c",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/eaaa4526-919a-491e-9052-f793d29a386c/fyU75f-QUbf4ujfSg2LeDI6B8rIEVomx6resdUBqPdk/1746902295/default/sankt_julian_-_mgp.jpeg"
+        },
+        {
+          "@id": "3a3062ce-8110-477f-995a-d9585c9d1d80",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/3a3062ce-8110-477f-995a-d9585c9d1d80/tns0_wDTn6vbd2y5E2wbfCtserUx8Df3stXumNBa4WI/1746902297/default/ansicht_1.jpeg"
+        },
+        {
+          "@id": "2b15cc1c-73bf-4e0b-8e54-51f43ad43eba",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/2b15cc1c-73bf-4e0b-8e54-51f43ad43eba/1eRYUbY_XFf5Q3EVR7U1uHPeqqdOr6FjlpeCE8MxpS8/1746902296/default/ansicht_2.jpeg"
+        },
+        {
+          "@id": "f064c30f-76b7-47ba-abb0-14ea99fd8de0",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/f064c30f-76b7-47ba-abb0-14ea99fd8de0/C8lSGD9ipaOnjsSd-1UkNamQ0zRmEJ_20irBvk4_occ/1746902297/default/ansicht_3.jpeg"
+        },
+        {
+          "@id": "c91e4ff5-3f17-4706-af2f-2841b66cd777",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/c91e4ff5-3f17-4706-af2f-2841b66cd777/V7mTNEqIzrgHtEZvaRFRn8c0N5IYl6axQVKDkNXv_nM/1746902296/default/ansicht_4.jpeg"
+        },
+        {
+          "@id": "f7d23ac5-54ee-489a-890a-a7fe113e35ad",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/f7d23ac5-54ee-489a-890a-a7fe113e35ad/4YSq1D7QEyc2wviNZR71qLVCbuxt8sCOckVDtwrA1kA/1746902297/default/ansicht_5.jpeg"
+        },
+        {
+          "@id": "3c49dc87-1d5e-4f57-a269-91a7ed1cb1a7",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/3c49dc87-1d5e-4f57-a269-91a7ed1cb1a7/zzZc8q-8ZpIIGBa-lrGR0LSH4hm4VOMlqi2UefbZbco/1746902296/default/ansicht_6.jpeg"
+        },
+        {
+          "@id": "9a893d53-ea93-4631-9cc7-46d02269c27d",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/9a893d53-ea93-4631-9cc7-46d02269c27d/FjHxO1UzQRbNgwZXk0z6Z4hyB1cstbQiVUlltfKklG8/1746902296/default/ansicht_7.jpeg"
+        },
+        {
+          "@id": "79887bb6-78bd-4096-84cc-912c7ba472f3",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/79887bb6-78bd-4096-84cc-912c7ba472f3/5wplR_d_MPjCmsEsokPNdZkPdRIy4XVsMOD6d6y8VfE/1746902296/default/ansicht_8.jpeg"
+        },
+        {
+          "@id": "403435f0-bc3e-4971-b633-e839d07b6e9b",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/403435f0-bc3e-4971-b633-e839d07b6e9b/jf2UFjW1Z086HdqshVvzGbbC9-hzfvuHOryQrjmRihU/1746902296/default/ansicht_9.jpeg"
+        },
+        {
+          "@id": "f6036cc2-5c79-4310-ba76-d7a6e96e4b5b",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/f6036cc2-5c79-4310-ba76-d7a6e96e4b5b/yty3zGibsaaoH12-uA4W9zeOakHR8yRcoEG_rO20TAg/1746902296/default/ansicht_10.jpeg"
+        },
+        {
+          "@id": "15448f8d-3e5c-423b-b88f-06fff4ce6602",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/15448f8d-3e5c-423b-b88f-06fff4ce6602/Em2ovcVp8LOdsSfHSVo5UY9J7pc58Y0YmHCQYRwr3VU/1746902296/default/ansicht_11.jpeg"
+        },
+        {
+          "@id": "1cb81914-549a-402e-9a8f-6b0e77f78d79",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/1cb81914-549a-402e-9a8f-6b0e77f78d79/C7u1biCNSpMeMiUvjrVEvsmYJVWZgJNM-J0qfmr-3ew/1746902296/default/f_rderzeichen_rlp_2.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "d501d760-7808-44e6-b6f9-114ebf482412",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Kalkbergwerk am Königsberg",
+      "description": "\u003cp\u003eKein trockenes Industriedenkmal, sondern ein spannendes Erlebnis unter Tage.\u003cbr\u003e\u003cbr\u003e\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "4e648492-2f2d-46fb-8c8d-9b8a08684d9b",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/4e648492-2f2d-46fb-8c8d-9b8a08684d9b/R34kZ48T4K7eViYWPKpTwAWC_xmjoD7qyGo4RF74il0/1745690630/default/bergwerkseinfahrt.jpg"
+        },
+        {
+          "@id": "8c5db1e4-da54-4c02-aa9f-e83f9d14c668",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/8c5db1e4-da54-4c02-aa9f-e83f9d14c668/hom0TdCvPLfeIGNPkrifhPCW1HMMR616utJLzOY8dF8/1745690629/default/die_einfahrt.jpg"
+        },
+        {
+          "@id": "62474539-d8ee-4928-ace5-71ddd5238f6e",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/62474539-d8ee-4928-ace5-71ddd5238f6e/D23ouNcP0fLJCVg4A1HvPh_RH-fThNF681ZBpNZnQUU/1745690629/default/lore.jpg"
+        },
+        {
+          "@id": "85115d80-430b-40d8-ae2d-477abd32430c",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/85115d80-430b-40d8-ae2d-477abd32430c/T1cOczf0LWf25KX_2G3uzX0FlXXgQQMKfhelEcjNg_w/1745690630/default/einfahrt.jpg"
+        },
+        {
+          "@id": "8b95c38d-ad0f-483a-a04e-633d25652f5b",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/8b95c38d-ad0f-483a-a04e-633d25652f5b/3TVQmaq0-vSf7bDnifGz_GBOiR5OB3eO9hXKh2br8Rk/1745690630/default/gluck_auf_bergwerksbahn.jpg"
+        },
+        {
+          "@id": "fa0c2c94-2861-48fa-b81b-1b8d5d0e7ca6",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/fa0c2c94-2861-48fa-b81b-1b8d5d0e7ca6/cc1Yc8LNu-8sr8kFk6oBJLhT5We4fSh3GHA2DeCtcCo/1745690630/default/lore.jpg"
+        },
+        {
+          "@id": "07f74ed9-c62e-4052-83e8-d702b84dd517",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/07f74ed9-c62e-4052-83e8-d702b84dd517/ub5nOLSejLuVSwghBnoex9KNjXt8o6fHUOjrr1voiEk/1745690630/default/im_berkwerksinneren.jpg"
+        },
+        {
+          "@id": "bfa40ae4-173f-46db-af63-5925824bc2e2",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/bfa40ae4-173f-46db-af63-5925824bc2e2/hmgWiMu_g4vbhgJYevEqaoBej8RBU8bToqaMrdszt8s/1745690629/default/im_bergwerksinneren_2.jpg"
+        },
+        {
+          "@id": "fd39f5d3-b12c-448f-9244-0e86bff2cd37",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/fd39f5d3-b12c-448f-9244-0e86bff2cd37/2NQ1LgQ_RDejyaj-AJ0WEjL5uX1oZ5O427JV4eNzLHY/1745690629/default/haspel.jpg"
+        },
+        {
+          "@id": "4d32084e-6f79-4a3a-a618-9f67fa51ecf1",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/4d32084e-6f79-4a3a-a618-9f67fa51ecf1/veLeeWWnHlYe5Be603olss5A7SzqMjHvUXAh1fgIrYw/1745690630/default/bergwerksstollen.jpg"
+        },
+        {
+          "@id": "503a9c94-f409-40f7-8b7d-64ee42ab2d68",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/503a9c94-f409-40f7-8b7d-64ee42ab2d68/jJ6ckdMkAQmyGuhWf0sKOM1B79ZZSuScrXvCufTDftE/1745690630/default/bergwerksimpressionen.jpg"
+        },
+        {
+          "@id": "27c01c44-ddeb-4402-91a3-1f9f16a32800",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/27c01c44-ddeb-4402-91a3-1f9f16a32800/CcvqZNAtqBQHebG3P3H5tFEEAmm0T7J5OpB_uiuekkk/1745690629/default/stalaktiten.jpg"
+        },
+        {
+          "@id": "cd0e59ba-fc33-4443-9a07-e7c66f7e316f",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/cd0e59ba-fc33-4443-9a07-e7c66f7e316f/OrCAcT2YWa9fSQTm3nc4yQ61C-peuQBRq2pVcp-W5d0/1745690629/default/berkwerksimpressionen.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "4b035b2c-5e7c-446c-a79f-5431599db8a1",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Camping \"am Königsberg\"",
+      "description": "\u003cp\u003eWillkommen auf dem Campingplatz am Königsberg.\u003c/p\u003e \u003cp\u003eWohnmobilstellplätze, komfortable Holzhütten für 2 Personen, eine Wohnung für 5-6 Personen, ein Wohnwagen mit Luxuszelt für 4 Personen, vier geräumige Mobilheime für 4 Personen, sowie eine separate Zeltwiese. \u003c/p\u003e",
+      "image": [
+        {
+          "@id": "44ee2d8e-0aa5-4097-bc71-d1653630e700",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/44ee2d8e-0aa5-4097-bc71-d1653630e700/dMv61T-L3akdVe35LHHM7FGOkzW--3uRD2YBvqwIAIA/1745690620/default/camping_am_konigsberg.jpg"
+        },
+        {
+          "@id": "ac8d62e9-cbdf-4835-8eee-835a63f6bfb3",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/ac8d62e9-cbdf-4835-8eee-835a63f6bfb3/3sWYaQkH2fc1EjIIAcd5QYwWjaZNq9A-8rGCP0CYPZQ/1745690619/default/camping_am_konigsberg_luftaufnahme.jpg"
+        },
+        {
+          "@id": "b98c489b-6cce-49f2-8ffd-a82720f0cdeb",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/b98c489b-6cce-49f2-8ffd-a82720f0cdeb/duDMG4IaEF-k6aY2hj_rKkBWjYLQ5dYi_d-lSIPtIOQ/1745690620/default/zeltplatz.jpg"
+        },
+        {
+          "@id": "af4026ea-9a85-4b58-930a-431c08456885",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/af4026ea-9a85-4b58-930a-431c08456885/Bpxj06l8Sd0fgSh2mpGDXzgd5WdbfY-hjhGiLyYTF8o/1745690619/default/holzhutten.jpg"
+        },
+        {
+          "@id": "86d2cc1e-2989-4e7a-ad69-89c1db26604b",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/86d2cc1e-2989-4e7a-ad69-89c1db26604b/wgqK-tMZVOLMTMmyjO9C2sujfxZcOfGJ_gXxH6A7fTU/1745690620/default/ferienwohnung.jpg"
+        },
+        {
+          "@id": "3b189fa4-ab61-4178-bf15-29e041670f50",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/3b189fa4-ab61-4178-bf15-29e041670f50/47fWa0JO2hfKYH0LQPrT9eMJP3RDwxEK30TdFBGqZYI/1745690620/default/mobilheim.jpg"
+        },
+        {
+          "@id": "e047126d-4365-4596-a93d-1012a4052157",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/e047126d-4365-4596-a93d-1012a4052157/4fTUoqs9W855jcVj9kYDYWXJ5hLH7SwYOQkazIO5esY/1745690620/default/minigolfanlage.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "4136af97-e81b-48ed-9966-ba6c2ec6073f",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "E-Bike Ladestation",
+      "description": "\u003cp\u003eE-Bike Ladestation ist an der Tourist-Information in Otterberg untergebracht.\u003cbr\u003e\u003cbr\u003e\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "d756905f-b30e-4bc2-95cd-28ad3b511b7c",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/d756905f-b30e-4bc2-95cd-28ad3b511b7c/kFLy1ZBfj4R9Y4Vzq-n3WuTIuGFh4mDhPjHy6Z4nKTk/1745538438/default/tourist-information_otterberg.jpg"
+        },
+        {
+          "@id": "d834692d-0980-43aa-a8c6-f3848b7a8e9c",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/d834692d-0980-43aa-a8c6-f3848b7a8e9c/_o2v_QTSsmnIwqfOD0zdNOM_04PfLwCNQqX5SaAKNdI/1745538439/default/unterwegs.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "1fab3d1b-39bf-4864-97b8-31dac3b1ad7e",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Wohnmobilstellplatz An den Tuchfabriken",
+      "description": "\u003cp\u003eMitten in der Stadt Kusel und doch ruhig gelegen.\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "fdeb3485-90bf-44ae-a83b-00926d0c3ae9",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/fdeb3485-90bf-44ae-a83b-00926d0c3ae9/z5-fuEfhy6wjIQKGQWRS-cnG5aFMA2iXw1_Mb4kqMvI/1745538403/default/wohnmobilstellplatz_an_den_tuchfabriken.jpg"
+        },
+        {
+          "@id": "bc1c28b4-7797-4c14-8de2-1e0cd35d6c97",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/bc1c28b4-7797-4c14-8de2-1e0cd35d6c97/bL8jtobAoCrREuSBT81rDB43WnYqJXJU3g4zWQCxFc4/1745538403/default/wohnmobilstellplatz_marktwiese3.jpg"
+        },
+        {
+          "@id": "1400a39b-e6b8-4aa1-9e18-e9e996f7f17b",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/1400a39b-e6b8-4aa1-9e18-e9e996f7f17b/oT4OzEQc94Gl4joT_WEeyLcuyCKYsUaxBJngmzZXb4g/1745538403/default/wohnmobilstellplatz_an_den_tuchfabriken.jpg"
+        },
+        {
+          "@id": "04189151-b1d1-4dd1-bff2-4fed82230593",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/04189151-b1d1-4dd1-bff2-4fed82230593/0hHSd4cVkec2jTexV1_aUuBzB_ny-RgDebFgJG5BaZQ/1745538403/default/blick_auf_kusel.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "47ad894d-7f3b-4dec-b03f-1a11b47ad6c5",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Wohnmobilstellplatz am Vitalbad",
+      "description": "\u003cp\u003eDirekt neben dem Vitalbad Pfälzer Bergland in Kusel stehen 8 Stellplätze zur Verfügung.\u003cbr\u003eHinweis: Das Bistro des Vitalbades ist auch für Nichtbadegäste zugänglich.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "2112ce33-4ddb-4baa-9896-6a70c66e5ee9",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/2112ce33-4ddb-4baa-9896-6a70c66e5ee9/swSItidRqoKEB0hl--oLfNkto8tNT6y1j32njIxZ0p8/1745538475/default/kusel_vitalbad.jpg"
+        },
+        {
+          "@id": "0189c1ff-55ff-49a4-ac5b-12700c70586d",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/0189c1ff-55ff-49a4-ac5b-12700c70586d/BOHKu1zIS9XKi0BGgbM29ADPbbg9p8KbffZjbC46uBI/1745538475/default/wohnmobilstellplatz_am_vitalbad_kusel.jpg"
+        },
+        {
+          "@id": "6f43a836-dc7d-43f2-ad11-b523a0d57f06",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/6f43a836-dc7d-43f2-ad11-b523a0d57f06/Fsn1UU6-VNwmH366aL1VYjk3-kfJ9eAFv3u4qfEqB8A/1745538475/default/wohnmobilstellplatz_am_vitalbad_kusel.jpg"
+        },
+        {
+          "@id": "5f2899f4-25e2-4c95-bb26-a8af26bfbd30",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/5f2899f4-25e2-4c95-bb26-a8af26bfbd30/KCRf3C3GFjUZrsYwVdnnRhEMXvJ320Ybc8R2oOqU6Qk/1745538475/default/wohnmobilstellplatz_am_vitalbad_kusel.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "ed35417b-e085-4acf-9f78-7c794739d73d",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Campingpark Ohmbachsee",
+      "description": "\u003cp\u003e4 Sterne Campingpark am Ohmbachsee\u003cbr\u003eCampingplatz, Wohnmobilstellplatz, Campingfässer, Mobilheime....\u003cbr\u003e\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "ebc8f65f-9cb1-4ff2-8300-7b6ae16ca033",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/ebc8f65f-9cb1-4ff2-8300-7b6ae16ca033/LyYENch1mhGz54uN1RAYLuW8tuIHoBrJ4KKtOKFgcOs/1745538428/default/logo_campingpark.jpg"
+        },
+        {
+          "@id": "0b564dd2-ea7d-4c3b-985e-5d2128cc8f9a",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/0b564dd2-ea7d-4c3b-985e-5d2128cc8f9a/WZJ0odDoNQBA9wQAORpSNgHV-czYUtUt7YltWc4WIlM/1745538428/default/campingpark_ohmbachsee.jpg"
+        },
+        {
+          "@id": "e903fa22-59fa-466c-8140-17da0febc600",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/e903fa22-59fa-466c-8140-17da0febc600/CKeBSBP5nnt_H7xyhceSfi1Ea1y34bVgDKp13PCeWug/1745538429/default/campingpark.jpg"
+        },
+        {
+          "@id": "82c40b6c-7175-40ac-95cd-5d716b536edf",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/82c40b6c-7175-40ac-95cd-5d716b536edf/5PRK9BAWdlVxYNGhhSCpBFdBNoeuKxWFqZrgE49f2X0/1745538428/default/campingpark.jpg"
+        },
+        {
+          "@id": "e14a8227-5a58-4cde-bd7f-94915003ae57",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/e14a8227-5a58-4cde-bd7f-94915003ae57/jJNNKh3D2zSZwQrbpr4nNjMxEpwn9H91HUKuJE-O3XM/1745538428/default/campingfasser.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "589fc116-e76e-471e-aa1d-4c31f773f3d9",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Camping- und Wohnmobilstellplatz Gänsedell",
+      "description": "\u003cp\u003eDer Campingplatz ist auf Terrassen angelegt und liegt mitten im Pfälzer Wald am Rande von Otterberg.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "050cbc85-edbc-4897-8f76-8f4fc7c878dc",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/050cbc85-edbc-4897-8f76-8f4fc7c878dc/g5bVNAc-WDZmMhAsfk4pPX6v6kRFayDhcBVkf31p2U0/1745538418/default/campingplatz_otterberg.jpg"
+        },
+        {
+          "@id": "cb1938ae-aedb-4bf7-a739-306ad3e98e83",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/cb1938ae-aedb-4bf7-a739-306ad3e98e83/MHir0UsRST97EqM6XBriF0DA5XyT7T-NQWp_POjBnY8/1745538418/default/sanitar_campingplatz_ansicht_1.jpg"
+        },
+        {
+          "@id": "a151422e-ea5f-4e1a-9b8f-4f3a06b1e76c",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/a151422e-ea5f-4e1a-9b8f-4f3a06b1e76c/CkpxDPGZzXb-99F6VMNTFI8o-26w5chadUXyGTvYNoU/1745538418/default/sanitar_campingplatz_ansicht_2.jpg"
+        },
+        {
+          "@id": "a0fe5337-cf39-4d7e-9d47-4e42681f0050",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/a0fe5337-cf39-4d7e-9d47-4e42681f0050/6hPDe4P34ZhIVEXvGQe-Sbfedo1l8P4ZYqVYm7HlAoc/1745538418/default/spielplatz.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "2899a74d-8d4d-499b-b4fa-1f9f036bba65",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Eseltour",
+      "description": "Eselwanderungen - erleben Sie die Besonderheiten des Westpfälzer Berglandes in der Begleitung von Grautieren, die gerne Ihre Kinder und Gepäck tragen.",
+      "image": [
+        {
+          "@id": "c61718c0-8caa-42f4-be22-e6aad3b52e39",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/c61718c0-8caa-42f4-be22-e6aad3b52e39/YVx8hxBsxoabIZO4-KAMmQ73-Lu9sgQXpviTSNLme7E/1745364457/default/erdesbacher_eseltour.jpg"
+        },
+        {
+          "@id": "d5f6086b-9114-4d31-9ccd-305f70f2bddc",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/d5f6086b-9114-4d31-9ccd-305f70f2bddc/DQRyaoBYtCnV_QOBk2gLX9OHbgbPbappus4hAQgE8OY/1745364456/default/die_hauptdarsteller.jpg"
+        },
+        {
+          "@id": "9edb6684-cbf2-4031-a3f4-04c4eea9d8d4",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/9edb6684-cbf2-4031-a3f4-04c4eea9d8d4/43__THoVsd2bskc6dbzo_emlajwDaIm4CkQaPExkITY/1745364456/default/eselwanderung.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "eeac2e7d-f4f3-45e8-91e8-bdd3ec9c1dd7",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Stellwerk Lauterecken",
+      "description": "\u003cp\u003eTouristischer Infopoint und barrierefreie Toilette.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "65a20871-d568-445c-ab3c-b1d9e252b3c5",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/65a20871-d568-445c-ab3c-b1d9e252b3c5/nUpXex1htsheFyGRKzcgmYz9J4pZTiYVeR267tGs8h8/1745364452/default/stellwerk_lauterecken.jpeg"
+        },
+        {
+          "@id": "8df379c2-4e42-46e8-b2f5-517ee912edbe",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/8df379c2-4e42-46e8-b2f5-517ee912edbe/sweClVygGFe_mgvGMxiX4qtpxKt1HR8vIrkcoa7IHck/1745364452/default/stellwerk_ansicht_2.jpeg"
+        },
+        {
+          "@id": "de24d007-af67-461e-a1d5-9df96f2adb39",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/de24d007-af67-461e-a1d5-9df96f2adb39/IT8Em1R5YijgfSmykxfyFML7e5Q52H5-JZKHV0txGtA/1745364452/default/stellwerk_ansicht_3.jpeg"
+        },
+        {
+          "@id": "cf8221b1-8b37-48ab-bdd5-c4f00acc74d1",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/cf8221b1-8b37-48ab-bdd5-c4f00acc74d1/wHhrkqJERCN-7xWtJywbKYr8hMwbh2xwtbje5B9cjME/1745364453/default/innenansicht.jpg"
+        },
+        {
+          "@id": "015a69b2-1907-46eb-8985-237543bbb0f7",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/015a69b2-1907-46eb-8985-237543bbb0f7/SIA_muFMlRkhv5kTlwqiBJepvG3ThOQt_-UVnTpvUYI/1745364453/default/forderkennzeichen_rlp.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "ce5977b0-7d01-4f58-b0cb-b8c3e0875fc2",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "E-Bike Ladestation, Gaststätte Sportheim",
+      "description": "\u003cp\u003eE-Bike Ladestation in St. Julian am Sportheim \u003c/p\u003e",
+      "image": [
+        {
+          "@id": "7b71bbd5-f3fc-463f-93e0-4ebe7950d326",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/7b71bbd5-f3fc-463f-93e0-4ebe7950d326/0B35d39nqSVGix5BMSp9qKHlbHECVeGkQJ9-4A2YK7A/1745364445/default/ladesaule_ansicht_1.jpg"
+        },
+        {
+          "@id": "d09af261-0fc2-489b-af4d-86ef8a563f23",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/d09af261-0fc2-489b-af4d-86ef8a563f23/gPYafYHOZ0aTtqEAC6p26aAFRKNEgGhmoI9JPD5ZlhI/1745364445/default/ladesaule_ansicht_2.jpg"
+        },
+        {
+          "@id": "b8243b18-5160-4382-89d0-8adc927d7a9e",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/b8243b18-5160-4382-89d0-8adc927d7a9e/rzA7zOSZP8QuqcBEaGxgyyHniMaN-GLR6S8pubSQ3CQ/1745364445/default/ladesaule_an_der_gaststatte.jpg"
+        },
+        {
+          "@id": "cfd4f953-ccc6-4ee0-a835-024ce036449a",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/cfd4f953-ccc6-4ee0-a835-024ce036449a/ZW8TQVKiNP9x4_pLTR8ed4ITlrHvE2BR_lJYbsj75pQ/1745364445/default/gaststatte_sportheim_all_american_diner_ansicht_1.jpg"
+        },
+        {
+          "@id": "f5f9514f-83e9-460c-bd11-0aeea242a3ce",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/f5f9514f-83e9-460c-bd11-0aeea242a3ce/weM89wvOAJ-rab80y7F3Kd15qCTzIkiGed3ZHoe0lK8/1745364445/default/gaststatte_sicht_v_radweg_u_draisinenstrecke.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "8b08f125-f6b6-43b3-ab75-0c4cc4341c89",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Protestantische Kirche",
+      "description": "\u003cp\u003eDer jüdische Architekt Ludwig Levy erbaute diese Kirche 1884.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "2e0aa914-6a99-4c11-8c3a-b3bf73d59cd3",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/2e0aa914-6a99-4c11-8c3a-b3bf73d59cd3/J-KY-um8xBq9V82jMqADOMV67R03HXRmYOYCpQRpTs8/1745364436/default/protestantische_kirche_in_olsbrucken.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "0a7d15a8-5a4c-4ab4-b764-6d316f10dd2e",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Aussichtspunkt Pavillon Herschweiler-Pettersheim",
+      "description": "Schöner Aussichtspunkt mit Blick über das Ohmbachtal",
+      "image": [
+        {
+          "@id": "04be3ef8-96bc-4122-95b6-7cf3e8d6ce50",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/04be3ef8-96bc-4122-95b6-7cf3e8d6ce50/qTPrOqHst-sxPDm9mDrWIYtk4Lipb7ggFsjfQdKvMSY/1745364432/default/aussicht_uber_das_ohmbachtal.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "9d95391c-708d-4e70-95b6-af4a331027f0",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Galgenhügel Schönenberg-Kübelberg",
+      "description": "\u003cp align=\"LEFT\"\u003e\u003c/p\u003e \u003cp align=\"JUSTIFY\"\u003e \u003cb\u003eGalgen\u003cb\u003ehügel \u003c/b\u003e\u003c/b\u003e\u003c/p\u003e\u003cp align=\"JUSTIFY\"\u003eDer dreibeinige Galgen stand neben der im Mittelalter bedeutenden Reichswälder Hauptstraße, die Metz mit Mainz verband. \u003c/p\u003e \u003cp\u003eIm Mittelalter vertrat man das Prinzip, dass Urteilsvollstreckungen öffentlich sein mussten, zur Abschreckung und zur Belehrung des Volkes sowie des Durchreisenden. Oft ließ man aus dem gleichem Grund die Gehängten noch monatelang am Galgen baumeln. Die Nachbildung des Galgens als Station des Begehbaren Geschichtsbuches erinnert an die Zeit des kurpfälzischen Gerichts Kübelberg.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "d7db0d78-4397-404b-978d-d6db12c260e0",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/d7db0d78-4397-404b-978d-d6db12c260e0/9kEUbmJyq2bbetwhHXgnBcLN1Om2r0picMn6AJGWQdU/1745364429/default/galgenhugel.jpg"
+        },
+        {
+          "@id": "7539f159-8076-45f5-a5d0-d80afa708264",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/7539f159-8076-45f5-a5d0-d80afa708264/3DNgOs7AIDhZ4ad29JZHnDbUHCU3LaY6BdVRFZy6pV4/1745364429/default/ansicht_des_galgens.jpg"
+        },
+        {
+          "@id": "662dfc5b-0ca7-43a6-aec9-e58d3dce52d7",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/662dfc5b-0ca7-43a6-aec9-e58d3dce52d7/SxNtlHcijcim02ZAyQz7Bem1bm2xYm22ofzsuT25_j4/1745364429/default/detail_galgenschlinge.jpg"
+        },
+        {
+          "@id": "d464cde4-ee55-4dad-9896-5270f0b9c668",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/d464cde4-ee55-4dad-9896-5270f0b9c668/8FQqg7bnawm51QpvXeAMZO2otQLJNQTDdPt093jgyME/1745364429/default/galgen_in_sand_1.jpg"
+        },
+        {
+          "@id": "ee3454a3-2e95-4222-bb6a-c4f851ad45da",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/ee3454a3-2e95-4222-bb6a-c4f851ad45da/taUs1uRgJjVzMuKUyckRrXVByVwcT9e46bmKNHrmSFw/1745364429/default/galgen_in_sand_2.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "edd45aea-6255-4949-86b1-70ab54fa0c0d",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Grubenstollen Brücken",
+      "description": "\u003cp\u003eGrubenstollen Brücken\u003cbr\u003e\u003cbr\u003eBrücken war seit 1888 Zentrum der westpfälzischen Diamantindustrie. In den 1930er Jahren waren über 2500 Menschen in den Diamantschleifereien der Westpfalz beschäftigt.\u003cbr\u003e\u003cbr\u003e\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "281285aa-5b5f-48e7-b0a2-dfcb4827137b",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/281285aa-5b5f-48e7-b0a2-dfcb4827137b/DPkbGdg88klf64PrTKvpPUGZIlz6MfkDUmUzVPIY0nE/1745364428/default/grubenstollen_brucken.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "1f8de4bc-37a3-43ee-8c7e-0b8153d939a8",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Mohrmühlweiher",
+      "description": "Am schönen Mohrmühlweiher, auch \"Motschweiher\" genannt, lässt sich die Natur hautnah zu erleben.",
+      "image": [
+        {
+          "@id": "17246899-5458-45bd-9b3e-629dd3e4aaca",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/17246899-5458-45bd-9b3e-629dd3e4aaca/InzGigz7Novhvi14XAi7BZYVEEhuJJsUOixmADTqb3c/1745364427/default/mohrmuhlweiher_ansicht_1.jpg"
+        },
+        {
+          "@id": "8cec862d-a418-4746-97a1-a78721e15c53",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/8cec862d-a418-4746-97a1-a78721e15c53/XsaI6Q7ZSslTaKkWvSf3xn8-hezXQSorteYLbBjOr5k/1745364427/default/mohrmuhlweiher_ansicht_2.jpg"
+        },
+        {
+          "@id": "8fee7fc4-912d-40b8-abc0-fd20aafb3149",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/8fee7fc4-912d-40b8-abc0-fd20aafb3149/5eaOuLsns0QPgqi8pmXybkLzd1-JT9LWGkDOYQeUCJI/1745364427/default/seerosen.jpg"
+        },
+        {
+          "@id": "bcc885f2-739d-4c8a-812e-101922c120db",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/bcc885f2-739d-4c8a-812e-101922c120db/cYJtqxNRNX2y_huPNuD-he6T4lZwA2fDl0Ta8wOKGBQ/1745364426/default/mohrmuhlweiher_ansicht_3.jpg"
+        }
+      ]
+    },
+    {
+      "@id": "97734e4b-76b0-4876-95ec-2af6172e46c6",
+      "@type": [
+        "Place",
+        "TouristAttraction",
+        "dcls:POI"
+      ],
+      "name": "Historische Waschtreppe Nanzdietschweiler",
+      "description": "\u003cp\u003eHier kann man erleben, wo sich das dörfliche Leben abspiellte. Die historische Waschtreppe am Glan in Nanzdietschweiler stammt von 1879. Hier wuschen die Frauen des Dorfes auf den Steinen die Wäsche, eine körperlich schwere Arbeit.\u003c/p\u003e",
+      "image": [
+        {
+          "@id": "ce1a72e3-5762-42e4-b662-ed6387c85053",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/ce1a72e3-5762-42e4-b662-ed6387c85053/aQiU8Zr4Whwp8XPUDf-GHDtPU0La0ofm3gKfZypNSsw/1745364423/default/alte_waschanlage_nanzdietschweiler.jpg"
+        },
+        {
+          "@id": "e699aa98-9993-4d49-9532-4ac1d8c85dc9",
+          "@type": [
+            "CreativeWork",
+            "MediaObject",
+            "ImageObject",
+            "dcls:Bild"
+          ],
+          "contentUrl": "https://data.rlp-tourismus.de/asset/e699aa98-9993-4d49-9532-4ac1d8c85dc9/5-ugd1zlyumjJ1lbPBM5y3pJaFxDba_YpDSTX5GW7O0/1745364423/default/infoschild_waschtrepe.jpg"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "total": 243,
+    "pages": 10,
+    "collection": {
+      "id": "5e3d45d3-f183-4a4c-a439-2cf877c0b430",
+      "name": "POI-Kusel",
+      "slug": "poi-kusel"
+    }
+  },
+  "links": {
+    "next": "https://data.rlp-tourismus.de/api/v4/endpoints/5e3d45d3-f183-4a4c-a439-2cf877c0b430?fields=name%2Cdescription%2Cimage.contentUrl%2CstartDate%2CendDate%2Clocation.name%2Clocation.name%2Clocation.address%2Clocation.geo\u0026include=image%2Clocation\u0026page%5Bnumber%5D=2\u0026page%5Bsize%5D=25"
+  }
+}

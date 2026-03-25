@@ -1,0 +1,29 @@
+{
+    "name": "kodi.kusel_api_scraper",
+    "version": "1.0.0",
+    "description": "[POI](https://data.rlp-tourismus.de/api/v4/endpoints/5e3d45d3-f183-4a4c-a439-2cf877c0b430)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "deploy": "pm2 start cronjob.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KODI-Kommunen-Digital/KODI.kusel_api_scraper.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/KODI-Kommunen-Digital/KODI.kusel_api_scraper/issues"
+    },
+    "homepage": "https://github.com/KODI-Kommunen-Digital/KODI.kusel_api_scraper#readme",
+    "dependencies": {
+        "axios": "^1.9.0",
+        "dotenv": "^16.5.0",
+        "mysql2": "^3.14.1",
+        "utils-heidi": "^0.0.11",
+        "winston": "^3.17.0"
+    }
+}

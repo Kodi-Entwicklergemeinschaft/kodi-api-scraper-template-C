@@ -1,0 +1,6 @@
+/node_modules
+/images
+.env
+/services/config
+# macOS system files
+.DS_Store

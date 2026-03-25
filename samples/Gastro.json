@@ -1,0 +1,3271 @@
+{
+    "@context": [
+        "https://schema.org/",
+        {
+            "@base": "https://data.rlp-tourismus.de/api/v4/universal/",
+            "@language": "de",
+            "skos": "https://www.w3.org/2009/08/skos-reference/skos.html#",
+            "dct": "http://purl.org/dc/terms/",
+            "cc": "http://creativecommons.org/ns#",
+            "dc": "https://schema.datacycle.at/",
+            "dcls": "https://data.rlp-tourismus.de/schema/",
+            "odta": "https://odta.io/voc/",
+            "sdm": "https://smartdatamodels.org/",
+            "alps": "http://json-schema.org/draft-07/schema/destinationdata/schemas/2022-04/datatypes#/definitions/"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "fafc011f-6bdf-4bb0-aed1-ef63ff89ee2d",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Burgrestaurant",
+            "description": "<p>Stilvoll speisen auf Burg Lichtenberg.<br></p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "5e011f26-82fe-4a26-b0f1-90bb48a86a3c",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-05-01",
+                    "validThrough": "2024-08-31",
+                    "opens": "11:00",
+                    "closes": "23:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "1e47761c-2288-459a-9b39-b9e0224f4d7f",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-05-01",
+                    "validThrough": "2024-08-31",
+                    "opens": "11:00",
+                    "closes": "21:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "174aedd2-0126-47d6-b0b2-71e5f67abbfb",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-05-01",
+                    "validThrough": "2024-08-31",
+                    "opens": "11:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "0f48cd9f-f6b6-479e-870d-c2c15a842fb3",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-09-01",
+                    "validThrough": "2025-04-30",
+                    "opens": "11:00",
+                    "closes": "23:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "c7dc09c6-31a5-45bd-a8b8-23f5fc5f98b5",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-09-01",
+                    "validThrough": "2025-04-30",
+                    "opens": "11:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "c1745a92-fb5d-4d6e-9969-80de9a951210",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-09-01",
+                    "validThrough": "2025-04-30",
+                    "opens": "11:00",
+                    "closes": "21:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "fa85bc16-afa4-4373-8db1-b1d2e0f11af9",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2023-09-01",
+                    "validThrough": "2024-02-18",
+                    "opens": "11:00",
+                    "closes": "21:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "939779b3-7372-430e-ad0a-bad67c172eff",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2023-09-01",
+                    "validThrough": "2024-02-18",
+                    "opens": "11:00",
+                    "closes": "23:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "0436ab2a-a462-4f47-ac3d-bccc9684ac25",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2023-09-01",
+                    "validThrough": "2024-02-18",
+                    "opens": "11:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "248c17fb-5994-4f33-a45c-ddfacfde99ba",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-03-01",
+                    "validThrough": "2024-04-30",
+                    "opens": "11:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "570061d2-e8a3-4ed7-8340-aa0b9ee7a7cb",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-03-01",
+                    "validThrough": "2024-04-30",
+                    "opens": "11:00",
+                    "closes": "21:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "8bb4adec-24b6-4d77-ba5a-82a737902ac0",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-03-01",
+                    "validThrough": "2024-04-30",
+                    "opens": "11:00",
+                    "closes": "23:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "0cb68bf3-37dd-48da-bf83-45f7ce2eb012",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p><u>01. Mai &ndash; 31. August</u>: <br/>Mo: Ruhetag<br/>Dienstag bis Donnerstag von 11:00 bis 21:00 Uhr<br/>Freitag und Samstag 11:00 bis 23:00 Uhr<br/>Sonntag von 11:00 bis 22:00 Uhr<br/><br/><u>01. September - 30. April</u>:<br/>Montag und Dienstag Ruhetag<br/>Mittwoch und Donnerstag 11:00 bis 21:00 Uhr<br/>Freitag und Samstag 11:00 bis 23:00 Uhr<br/>So: 11 &ndash; 22 Uhr</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                },
+                {
+                    "@id": "c3a4db34-16ee-40c6-b14a-3776711f41ff",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>May 01 - August 31:<br/>Mon: day off<br/>Tuesday to Thursday from 11:00 to 21:00<br/>Friday and Saturday from 11:00 to 23:00<br/>Sunday from 11:00 to 22:00</p> <p>September 01 - April 30:<br/>Monday and Tuesday closed<br/>Wednesday and Thursday 11:00 to 21:00<br/>Friday and Saturday 11:00 to 23:00<br/>Sun: 11 am - 10 pm</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "en"
+                    ]
+                },
+                {
+                    "@id": "4776ccb2-04c2-4810-9d86-e7f3ffb1ce47",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>01 mai - 31 ao&ucirc;t :<br/>Lu : Jour de repos<br/>Mardi &agrave; jeudi de 11:00 &agrave; 21:00<br/>Vendredi et samedi de 11:00 &agrave; 23:00<br/>Dimanche de 11:00 &agrave; 22:00</p> <p>01 septembre - 30 avril :<br/>Lundi et mardi jour de repos<br/>Mercredi et jeudi 11:00 &agrave; 21:00<br/>Vendredi et samedi 11:00 &agrave; 23:00<br/>Dim : 11h - 22h</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "fr"
+                    ]
+                },
+                {
+                    "@id": "715baa89-d1c2-443b-b402-7d834e70ec81",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>01 mei - 31 augustus:<br/>ma: vrije dag<br/>Dinsdag t/m donderdag van 11:00 tot 21:00<br/>Vrijdag en zaterdag van 11:00 tot 23:00<br/>Zondag van 11:00 tot 22:00</p> <p>01 september - 30 april:<br/>Maandag en dinsdag gesloten<br/>Woensdag en donderdag 11:00 tot 21:00<br/>Vrijdag en zaterdag 11:00 tot 23:00<br/>Zon: 11:00 - 22:00</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "nl"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Burg Lichtenberg",
+                "postalCode": "66871",
+                "addressLocality": "Thallichtenberg",
+                "addressCountry": "DE",
+                "@id": "fafc011f-6bdf-4bb0-aed1-672e678d77b2",
+                "telephone": "(0049) 6381 9987236",
+                "url": "https://burglichtenberg.pfaelzerbergland.de/gastronomie/restaurant/"
+            },
+            "geo": {
+                "longitude": 7.3557883862304,
+                "@id": "fafc011f-6bdf-4bb0-aed1-03a28b6a0e01",
+                "@type": "GeoCoordinates",
+                "latitude": 49.5560670363255
+            },
+            "image": [
+                {
+                    "@id": "4e1100c8-be34-47a0-9295-35c8a35675f7",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/4e1100c8-be34-47a0-9295-35c8a35675f7/0801cDv035nlrS77Lcfl34asgzdpe3_f0JUWwbdyAHY/1746488440/default/burgrestaurant_terrasse.jpeg"
+                },
+                {
+                    "@id": "7a767d6a-8020-4aeb-b27c-e9bc78ec4fb9",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/7a767d6a-8020-4aeb-b27c-e9bc78ec4fb9/H1EjoCXtHsnPDFg2aFm1vJOSREIJpcuIDy70GBw6uCY/1746488440/default/burgrestaurant_terrasse.jpeg"
+                },
+                {
+                    "@id": "75373dcb-57d3-4abc-ae50-242fc40fb734",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/75373dcb-57d3-4abc-ae50-242fc40fb734/ypku4-6ed6JDrNWUeeU-L0Zi_tHXZQEUaZ-NcE4RD6k/1746488441/default/burgrestaurant_aussenansicht.jpeg"
+                },
+                {
+                    "@id": "3f623a78-bb54-4f44-9fbb-b2f7eba39914",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/3f623a78-bb54-4f44-9fbb-b2f7eba39914/rk5G39JGNiLHoGtzU-LOu-dAshnI8-OTKTxPZix08RA/1746488439/default/burgrestaurant_terrasse.jpeg"
+                },
+                {
+                    "@id": "50af45da-58c4-47e8-bdbb-d55d0c4423cb",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/50af45da-58c4-47e8-bdbb-d55d0c4423cb/2f7NwiEj7PQ-L0mTJFaJozRARf_7rb6JvWCpaqZ264Q/1746488440/default/das_kaminzimmer_ansicht_1.jpeg"
+                },
+                {
+                    "@id": "1d2139e6-abc1-4f9f-b09c-61db18545526",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/1d2139e6-abc1-4f9f-b09c-61db18545526/EF0lOjCu9ua044bXs7QHlpQ0xf44udGIXlTdIUfJPwc/1746488440/default/das_kaminzimmer_ansicht_2.jpeg"
+                },
+                {
+                    "@id": "143fe47a-76b3-4824-8836-5f62e93c48f2",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/143fe47a-76b3-4824-8836-5f62e93c48f2/KZpkNt7aODc5CXbZOMIolVn4V8fJuvqm4bJHBqaX1CY/1746488440/default/das_kaminzimmer_ansicht_3.jpeg"
+                },
+                {
+                    "@id": "f53134ca-de18-41c2-915e-755a56c358d0",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/f53134ca-de18-41c2-915e-755a56c358d0/4071piISKtBFXUFQcSRiaL4vxmmpABuVN2Llm43z3nI/1746488441/default/speisesaal_ansicht_1.jpeg"
+                },
+                {
+                    "@id": "12ab63b6-f469-4cae-9cd3-a09b049d6f15",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/12ab63b6-f469-4cae-9cd3-a09b049d6f15/_0asVu-WYOmH2_aYtIJG96ESbBNDObXqfQLYzsAdKiI/1746488440/default/speisesaal_ansicht_2.jpeg"
+                },
+                {
+                    "@id": "894d3723-c114-44d2-9189-42e1d599bce0",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/894d3723-c114-44d2-9189-42e1d599bce0/295hj5lHP4pA2EOBRI69pnz2OcXf34zuL42i5KufT88/1746488439/default/tresen.jpeg"
+                },
+                {
+                    "@id": "7ef12254-552a-4bc5-9491-14e4f89b2a6b",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/7ef12254-552a-4bc5-9491-14e4f89b2a6b/FJe6SI_lfzakZq0GbCzl4nj5xVClH_umWCFzlV3TLlw/1746488439/default/speisesaal_detailansicht.jpeg"
+                },
+                {
+                    "@id": "32cadb91-21d7-4f05-a879-5601a1f5a3a1",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/32cadb91-21d7-4f05-a879-5601a1f5a3a1/Z3bxGSj3KSjLNghc2ZYFUag0RwSE1prPOAt80mtRZSY/1746488440/default/zuweg.jpeg"
+                },
+                {
+                    "@id": "07b0d59c-6f24-4c7d-8fe0-11d297a7ce96",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/07b0d59c-6f24-4c7d-8fe0-11d297a7ce96/Cec4KNyWhgI8oEWVOrBP51oBSK4GubvQtDEyqrASXoE/1746488440/default/zuweg.jpeg"
+                },
+                {
+                    "@id": "1330bf53-8351-4a40-9da6-e62c84d2978b",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/1330bf53-8351-4a40-9da6-e62c84d2978b/i2MzDBcfCvKl0Fql7fmmqV9KMOmN4EohFFWAYrKtrqA/1746488440/default/bewegungsflachen_im_gastraum.jpg"
+                },
+                {
+                    "@id": "abe8f51d-87a1-45bf-8239-cc8ee9c6c870",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/abe8f51d-87a1-45bf-8239-cc8ee9c6c870/QlZWD_sd1YPr1c9-TjPZBxN-TVqjuAtlsdWlE4_3KWI/1746488440/default/offentliches_wc_fur_menschen_mit_behinderung.jpg"
+                }
+            ],
+            "dc:slug": "burgrestaurant-zp3jbjzu"
+        },
+        {
+            "@id": "e19e2ddc-2169-484a-913d-ce6a18c86f37",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Restaurant \"11 Freunde\" Sportheim",
+            "description": "<p>Spezialitäten: Burger, Schnitzel, Pasta, Salate und Rumpsteaks<br>Verschiedene Eisbecher und Cocktails</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "2219df13-a3a8-4a58-8f8b-efb83a87ca63",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-08-01",
+                    "validThrough": "2032-01-01",
+                    "opens": "17:00",
+                    "closes": "23:59",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Bahnhofstr.",
+                "postalCode": "67757",
+                "addressLocality": "Kreimbach-Kaulbach",
+                "addressCountry": "DE",
+                "@id": "e19e2ddc-2169-484a-913d-462780ccf6a8",
+                "telephone": "(0049) 6308-9948244",
+                "email": "dvk.wolfstein@googlemail.com"
+            },
+            "geo": {
+                "longitude": 7.3738,
+                "@id": "e19e2ddc-2169-484a-913d-22ab6c2b8f1b",
+                "@type": "GeoCoordinates",
+                "latitude": 49.33
+            },
+            "dc:slug": "restaurant-11-freunde-sportheim"
+        },
+        {
+            "@id": "89804126-ba34-4118-a42d-d92866556bfd",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Veldenzschenke",
+            "description": "<p>Alle FCK Spiele LIVE</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "de6f70f2-dd41-4c03-9727-63909d26226a",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-06-01",
+                    "validThrough": "2031-12-31",
+                    "opens": "10:00",
+                    "closes": "13:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Wednesday"
+                    ]
+                },
+                {
+                    "@id": "7e41a765-bb4b-411b-86a7-be0ce67dd51c",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-06-01",
+                    "validThrough": "2031-12-31",
+                    "opens": "10:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "3760f5eb-8429-47ca-8d25-23494265eef0",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-06-01",
+                    "validThrough": "2031-12-31",
+                    "opens": "10:00",
+                    "closes": "23:59",
+                    "dayOfWeek": [
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Veldenzplatz 4",
+                "postalCode": "67742",
+                "addressLocality": "Lauterecken",
+                "addressCountry": "DE",
+                "@id": "89804126-ba34-4118-a42d-5165fe51f262",
+                "telephone": "(0049) 6382 993974",
+                "email": "borislavpetric@t-online.de"
+            },
+            "geo": {
+                "longitude": 7.59213,
+                "@id": "89804126-ba34-4118-a42d-35e912b68bd1",
+                "@type": "GeoCoordinates",
+                "latitude": 49.64944
+            },
+            "image": [
+                {
+                    "@id": "c98685a9-c689-4bc2-9e58-9b3dc3c5a6c6",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/c98685a9-c689-4bc2-9e58-9b3dc3c5a6c6/4uNueE6zHC5_gzB_-kYJ3G3EdbXXmtV07cz38jb3_RQ/1749780264/default/vorderansicht.jpg"
+                },
+                {
+                    "@id": "bff2add4-37b7-4da2-b8ee-4491f1106cf3",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/bff2add4-37b7-4da2-b8ee-4491f1106cf3/VROpGHi4vMUShsACEsCNfxJ4TqYvpQKgm4fQJj1GJHY/1749780264/default/theke.jpg"
+                },
+                {
+                    "@id": "49dc40ab-c65b-4293-bb65-2594e3ea77e2",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/49dc40ab-c65b-4293-bb65-2594e3ea77e2/9rFzLVHt13z8q81bZbxG434G-GvD4FG0x7iVURRZTOY/1749780264/default/eingang.jpg"
+                },
+                {
+                    "@id": "7a956204-9830-46a0-9131-97a2615867ef",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/7a956204-9830-46a0-9131-97a2615867ef/VlJEwSO7E6nVLK2BJRro7f8h12corrA8Ebz4DRoDBbk/1749780264/default/spielmoglichkeit.jpg"
+                }
+            ],
+            "dc:slug": "veldenzschenke-1"
+        },
+        {
+            "@id": "659177bf-e883-4e15-84e6-6ce245493c15",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Bäckerei Harth Lauterecken",
+            "description": "<p>Verkauf von Backwaren aus eigener Herstellung</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "77173773-d4d3-46b6-b6d7-49542ebe5f00",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-06-01",
+                    "validThrough": "2031-01-31",
+                    "opens": "06:00",
+                    "closes": "12:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "17b76939-7450-44e3-8cd0-4385ed5a1f14",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-06-01",
+                    "validThrough": "2031-01-31",
+                    "opens": "14:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Hauptstr. 38",
+                "postalCode": "67742",
+                "addressLocality": "Lauterecken",
+                "addressCountry": "DE",
+                "@id": "659177bf-e883-4e15-84e6-e4afdd4da58a",
+                "telephone": "(0049) 6382 7316",
+                "email": "baeckerei-harth@t-online.de"
+            },
+            "geo": {
+                "longitude": 7.59142,
+                "@id": "659177bf-e883-4e15-84e6-802331aadc39",
+                "@type": "GeoCoordinates",
+                "latitude": 49.6497
+            },
+            "image": [
+                {
+                    "@id": "d219d287-55cd-4878-8f94-19f1886aed86",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/d219d287-55cd-4878-8f94-19f1886aed86/hIHDPomPz9Ur3gTQ8DUI4w9cMJH9ktP7uqs-B0gSAxc/1750120223/default/innenansicht.jpg"
+                },
+                {
+                    "@id": "2efbd967-a362-481c-a590-3e31c2bc8234",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/2efbd967-a362-481c-a590-3e31c2bc8234/k1qZ4Q_XgYnVrbciimE3rU3ZHWTFUI2PzKB5fkOxXoE/1750120223/default/sortiment.jpg"
+                },
+                {
+                    "@id": "93e911a1-3397-4d65-a339-a50eeb4c8f75",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/93e911a1-3397-4d65-a339-a50eeb4c8f75/RXspb8YKeLma_1FdB4W9eNlvyKcXr-tAMGQRZ248EdY/1750120223/default/brotsortiment.jpg"
+                }
+            ],
+            "dc:slug": "baeckerei-harth-lauterecken"
+        },
+        {
+            "@id": "a491ff9a-68c0-442b-a7b3-8a3c653ab54a",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Bäckerei Harth Offenbach-Hundheim",
+            "description": "<p>Verkauf von Backwaren und Lebensmitteln</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "b82848bd-1684-47a6-8c8a-fb42ff50a9fd",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-06-01",
+                    "validThrough": "2031-01-01",
+                    "opens": "06:00",
+                    "closes": "10:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday"
+                    ]
+                },
+                {
+                    "@id": "83136014-222f-4939-90dc-90a6dec79f64",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-06-01",
+                    "validThrough": "2031-01-01",
+                    "opens": "06:00",
+                    "closes": "11:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Hauptstr.60",
+                "postalCode": "67749",
+                "addressLocality": "Offenbach-Hundheim",
+                "addressCountry": "DE",
+                "@id": "a491ff9a-68c0-442b-a7b3-0271fd3e2cd5",
+                "telephone": "(0049) 6382 7448",
+                "email": "baeckerei-harth@t-online.de"
+            },
+            "geo": {
+                "longitude": 7.55144,
+                "@id": "a491ff9a-68c0-442b-a7b3-66fd11d95566",
+                "@type": "GeoCoordinates",
+                "latitude": 49.62433
+            },
+            "image": [
+                {
+                    "@id": "806b4222-aacf-4590-ad59-324af3ae7f94",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/806b4222-aacf-4590-ad59-324af3ae7f94/plzMyYS2FgV1AJJ5aRAUQyALpgplFXmZlqzumRswaAU/1750120223/default/thekenansicht.jpg"
+                },
+                {
+                    "@id": "809385ff-d0cb-4466-b1fe-1efae6167d59",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/809385ff-d0cb-4466-b1fe-1efae6167d59/IqJ05o-7tClWSwRCQM0aiPLdJVruiggE1V7BfqXbb6s/1750120223/default/thekenansicht.jpg"
+                },
+                {
+                    "@id": "d3d92c31-36de-47e1-beac-94b0fdd055d4",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/d3d92c31-36de-47e1-beac-94b0fdd055d4/qNcqSI6lJ1TkcwwmvT_S_KDXO4TcHEtECX0s-0KsMT0/1750120223/default/backwaren.jpg"
+                }
+            ],
+            "dc:slug": "baeckerei-harth"
+        },
+        {
+            "@id": "8d33f47d-dbb7-43fb-b9e2-317b04a88be1",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Bäckerei Harth Wiesweiler",
+            "description": "<p>Verkauf von Backwaren aus eigener Herstellung</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "808ec174-bc7f-4892-9bec-0e7c97341db3",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-06-01",
+                    "validThrough": "2030-02-01",
+                    "opens": "07:00",
+                    "closes": "10:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday"
+                    ]
+                },
+                {
+                    "@id": "c22af108-b947-4d49-b1c9-bcdbfdfbd9c7",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-06-01",
+                    "validThrough": "2030-01-01",
+                    "opens": "07:00",
+                    "closes": "11:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "d91df20f-eab7-4c2f-bdcf-71d47a2ef9e7",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Backwaren und Lebensmittel</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Hauptstr.21",
+                "postalCode": "67744",
+                "addressLocality": "Wiesweiler",
+                "addressCountry": "DE",
+                "@id": "8d33f47d-dbb7-43fb-b9e2-b9369cac127e",
+                "telephone": "(0049) 8567",
+                "email": "baeckerei-harth@t-online.de"
+            },
+            "geo": {
+                "longitude": 7.56909,
+                "@id": "8d33f47d-dbb7-43fb-b9e2-ddba704b6bcd",
+                "@type": "GeoCoordinates",
+                "latitude": 49.63944
+            },
+            "image": [
+                {
+                    "@id": "dc87a320-68bb-4f89-8566-28305ba8d1f2",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/dc87a320-68bb-4f89-8566-28305ba8d1f2/gRPMGwyREqUz_5n29P8UQ4wYhvks87ZxFLGM3LSP2-Q/1750120222/default/verkauftheke.jpg"
+                },
+                {
+                    "@id": "37fd2c13-9981-4f8e-992f-bc5d8af63398",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/37fd2c13-9981-4f8e-992f-bc5d8af63398/TP1dIEVr8fQskGrLs5YY6Yp70zLWJ05anjGLqlmelz8/1750120223/default/thekenansicht.jpg"
+                },
+                {
+                    "@id": "303e59a6-bc5e-4ad6-bf9c-f6742c313ca4",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/303e59a6-bc5e-4ad6-bf9c-f6742c313ca4/X3O5ZLykUY4GE___p0TS8-UQndjyCz6lGxSWh9YeGuU/1750120222/default/sortiment.jpg"
+                }
+            ],
+            "dc:slug": "baeckerei-harth-wiesweiler"
+        },
+        {
+            "@id": "bd6bf5ee-09b0-451b-b930-03c744a524bc",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Hotel Pfälzer Hof",
+            "description": "<p>*** Superior</p> <p>Hotel Restaurant</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "dd76de8e-37ee-49f6-a96b-b687068f1328",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-05-01",
+                    "validThrough": "2029-01-01",
+                    "opens": "12:00",
+                    "closes": "15:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "3fc66101-ae0b-4bd4-ab5f-543eec9301eb",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-05-01",
+                    "validThrough": "2029-01-01",
+                    "opens": "17:00",
+                    "closes": "23:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Hauptstraße 12",
+                "postalCode": "67742",
+                "addressLocality": "Lauterecken",
+                "addressCountry": "DE",
+                "@id": "bd6bf5ee-09b0-451b-b930-8b8adca1bd23",
+                "telephone": "(0049) 6382 7338",
+                "email": "info@pfaelzer-hof.de",
+                "url": "http://www.pfaelzer-hof.de"
+            },
+            "geo": {
+                "longitude": 7.59002,
+                "@id": "bd6bf5ee-09b0-451b-b930-ef063046c490",
+                "@type": "GeoCoordinates",
+                "latitude": 49.65134
+            },
+            "dc:slug": "hotel-pfaelzer-hof-j444ii0e"
+        },
+        {
+            "@id": "a944fafa-4d2f-4680-acb8-b013a8ffdfbf",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Backhaus Scheidt \"Rothselberg\"",
+            "description": "<p>Bäckereifiliale mit verschiedenen Lebensmitteln</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "a27341a7-d74b-4182-885f-64d161499626",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-05-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "06:00",
+                    "closes": "10:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Hauptstraße 59",
+                "postalCode": "67753",
+                "addressLocality": "Rothselberg",
+                "addressCountry": "DE",
+                "@id": "a944fafa-4d2f-4680-acb8-385e30fb4620",
+                "telephone": "(0049) 9990498",
+                "email": "Backhausscheidt@t-online.de",
+                "url": "http://www.Backhaus-scheidt.de"
+            },
+            "geo": {
+                "longitude": 7.59127,
+                "@id": "a944fafa-4d2f-4680-acb8-5cd2dc1c3f93",
+                "@type": "GeoCoordinates",
+                "latitude": 49.5471
+            },
+            "image": [
+                {
+                    "@id": "0dfba69b-4706-4b4c-91a1-8a646152700b",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/0dfba69b-4706-4b4c-91a1-8a646152700b/sWIPqQPHCbCNs4t67I1tiX1Jz5gtahQZBCqNVpSJPSg/1748397173/default/backwaren.jpg"
+                }
+            ],
+            "dc:slug": "backhaus-scheidt-rothselberg"
+        },
+        {
+            "@id": "bd241852-810d-4340-91de-a5ba9cc541ee",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Fero´s Imbiss",
+            "description": "<p>Zentrale Lage und Einkaufmöglichkeiten</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "f85bdb45-8bdf-490d-a490-46f56e0a44e4",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-03-07",
+                    "validThrough": "2028-12-01",
+                    "opens": "11:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday"
+                    ]
+                },
+                {
+                    "@id": "5fdf28ac-5b34-4411-8c47-a546360f356f",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-03-07",
+                    "validThrough": "2028-12-01",
+                    "opens": "11:00",
+                    "closes": "17:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "496f48e8-8236-42f5-904b-ae9458bf9a58",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Ruhetag an Sonntagen und Feiertagen</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Saabrücker Str. 9-11",
+                "postalCode": "67742",
+                "addressLocality": "Lauterecken",
+                "addressCountry": "DE",
+                "@id": "bd241852-810d-4340-91de-2df704c1d871",
+                "telephone": "(0049) 15756525104",
+                "email": "soenmezferhat@yahoo.com"
+            },
+            "geo": {
+                "longitude": 7.59081,
+                "@id": "bd241852-810d-4340-91de-497be826a1c2",
+                "@type": "GeoCoordinates",
+                "latitude": 49.65642
+            },
+            "image": [
+                {
+                    "@id": "3c5af845-911e-461b-8e22-74ad9a59916c",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/3c5af845-911e-461b-8e22-74ad9a59916c/hI1u1szqC3fXLi5PPMiO_6Yl--I8s2k-ziepgN1ezSw/1743690620/default/neueroffnung.jpeg"
+                },
+                {
+                    "@id": "6a666349-7429-40dd-b5a8-3edb6180a3d2",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/6a666349-7429-40dd-b5a8-3edb6180a3d2/C3ZaRMNG6PNLdfxsmHtE4wXId4XkKjmw3StvvakbvTc/1743690619/default/fero_s_imbiss_aussenansicht.jpg"
+                },
+                {
+                    "@id": "23cdc874-cfa0-43bf-9625-1c38e5fac1d1",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/23cdc874-cfa0-43bf-9625-1c38e5fac1d1/lJC3mRc_IHX6IOAB199I4k2bR-pOWySHr_RKVAJOTEk/1743690619/default/aussenansicht_mit_stehtischen.jpg"
+                },
+                {
+                    "@id": "c4b6962f-3658-4658-a1c2-1a5b78692320",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/c4b6962f-3658-4658-a1c2-1a5b78692320/DfPTd9_jUeoCRi9WAj1xadh4_7_aEzh75OHGhU9ZJbs/1743690620/default/fero_s_speisekarte_stand_marz_2025.jpg"
+                }
+            ],
+            "dc:slug": "fero-s-imbiss"
+        },
+        {
+            "@id": "56963af3-c09a-45a7-8bdd-1c15ed9f31d0",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Steinbruch Café",
+            "description": "<p>Gemütliches Café mit einem tollen und reichhaltigen Angebot an Backwaren.</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "507ab572-5ed9-4f95-bee3-2564d629d0a8",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-06-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "06:00",
+                    "closes": "17:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday"
+                    ]
+                },
+                {
+                    "@id": "9adf1dfd-2268-491c-863b-67d3dbb081f3",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-06-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "06:00",
+                    "closes": "12:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Saturday"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Haschbacherstrasse 14",
+                "postalCode": "66887",
+                "addressLocality": "Rammelsbach",
+                "addressCountry": "DE",
+                "@id": "56963af3-c09a-45a7-8bdd-9458759ba84f",
+                "telephone": "(0049) 6381 4291346"
+            },
+            "geo": {
+                "longitude": 7.4447379,
+                "@id": "56963af3-c09a-45a7-8bdd-f0d4997cd1fc",
+                "@type": "GeoCoordinates",
+                "latitude": 49.5428183
+            },
+            "image": [
+                {
+                    "@id": "1900a12f-4a07-4f6c-b8e7-17186f209382",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/1900a12f-4a07-4f6c-b8e7-17186f209382/t7Ics45ckxh1W7L5NKpIlI9Xo5t7CV-3-dTsLfn4164/1739368500/default/steinbruch_cafe_rammelsbach.jpg"
+                },
+                {
+                    "@id": "c8c2adde-992d-40d6-b449-a2951f6742fb",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/c8c2adde-992d-40d6-b449-a2951f6742fb/lNuDSUUexDbWobtQlKDRa4kadqK3r11k-YRWdPRsMeo/1739368500/default/verkaufstheke_des_cafes.jpg"
+                },
+                {
+                    "@id": "d51f23c6-ab29-4600-b68b-478ad6eb86b2",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/d51f23c6-ab29-4600-b68b-478ad6eb86b2/nLr4-7KszxN4CI96lsird5cEGpZEaXiDv1tCVl41QmQ/1739368500/default/steinbruch_cafe_rammelsbach_innenbereich.jpg"
+                },
+                {
+                    "@id": "a4bc782d-50a2-44d6-91fa-4a33fb827b8f",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/a4bc782d-50a2-44d6-91fa-4a33fb827b8f/YnLrBwxfQo6VYYTMODxbksy9v2X1kuVc6DwJhpNA1LA/1739368500/default/steinbruch_cafe_rammelsbach_innenbereich.jpg"
+                },
+                {
+                    "@id": "d77bb065-7297-46a2-a9fe-0e79205d58e9",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/d77bb065-7297-46a2-a9fe-0e79205d58e9/BqgZYpm9UVeQCXtZEpwlCfRooR3txiPwH_QDC61G3aI/1739368500/default/backwarenangebot.jpg"
+                },
+                {
+                    "@id": "8078ebfc-23c4-434a-891e-830cbb6f5a22",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/8078ebfc-23c4-434a-891e-830cbb6f5a22/Xbud4bE2FkuiIwc5-FiNAi5bYm2bl8REicclKxxFedg/1739368500/default/backwarenangebot.jpg"
+                }
+            ],
+            "dc:slug": "steinbruch-cafe"
+        },
+        {
+            "@id": "9f485501-4ef3-4a5f-a193-248599ee7f9f",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Selberghütte Rothselberg",
+            "description": "<p>Herzlich Willkommen an der Selberghütte Rothselberg</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "920c3e40-4d8a-4d46-9b73-765960ad90bd",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-08-04",
+                    "validThrough": "2024-08-04",
+                    "opens": "11:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "f2cbba0a-58e9-496f-8b22-701689c6da46",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-10-20",
+                    "validThrough": "2024-10-20",
+                    "opens": "11:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "66744d42-e0c0-4a78-9a24-fce6d88d96a2",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-07-07",
+                    "validThrough": "2024-07-07",
+                    "opens": "11:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "5bd5f48e-939e-4b94-860f-f4d112e6b4ec",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-05-09",
+                    "validThrough": "2024-05-09",
+                    "opens": "10:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "282730d1-9341-44a9-989a-8d40f9478804",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-08-18",
+                    "validThrough": "2024-08-18",
+                    "opens": "11:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "d67a71f2-ba5e-4652-a615-4264c6e4ab35",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-09-15",
+                    "validThrough": "2024-09-15",
+                    "opens": "11:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "92ed62ce-df31-4cc0-9949-254ae4ffdc48",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-07-21",
+                    "validThrough": "2024-07-21",
+                    "opens": "11:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "5fbe9002-8526-447e-8c81-eb8ca6740ccc",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-10-06",
+                    "validThrough": "2024-10-06",
+                    "opens": "11:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "c7f31a03-f4a8-4e60-b221-714cf588a35c",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-09-01",
+                    "validThrough": "2024-09-01",
+                    "opens": "11:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unnamed Road",
+                "postalCode": "67753",
+                "addressLocality": "Rothselberg",
+                "addressCountry": "DE",
+                "@id": "9f485501-4ef3-4a5f-a193-acc801eae600",
+                "telephone": "(0049) 63045564",
+                "email": "info@selbergverein.de"
+            },
+            "geo": {
+                "longitude": 7.59401,
+                "@id": "9f485501-4ef3-4a5f-a193-c844ed0d9fb3",
+                "@type": "GeoCoordinates",
+                "latitude": 49.5614
+            },
+            "image": [
+                {
+                    "@id": "46fbb899-e1ca-4548-95d2-b44b53283ff7",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/46fbb899-e1ca-4548-95d2-b44b53283ff7/8bC8-Mhzuj-WTm1M9719FVw_FQQgpwrlE5TQiYllPNk/1745538625/default/selberg.jpg"
+                },
+                {
+                    "@id": "d37022e6-daa3-4b99-8973-cd3c5b0227f2",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/d37022e6-daa3-4b99-8973-cd3c5b0227f2/dPd7wK4A65qLJVdrctwNMMXXEKTcBTpJ0PHmZe_PfVI/1745538625/default/selberg_ii.jpg"
+                },
+                {
+                    "@id": "c5909b2b-ba96-480b-aaff-222b33f09b5b",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/c5909b2b-ba96-480b-aaff-222b33f09b5b/IkrhpmDC37DaiFbKSqayRsr0a5O2P0I2-DG3p6z2I4c/1745538624/default/selberghutte.jpg"
+                }
+            ],
+            "dc:slug": "selberghuette-9"
+        },
+        {
+            "@id": "d665a086-8d89-415d-a0b9-71b03d79b196",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Beimbauer´s FeierabendWerkstatt",
+            "description": "<p>Willkommen in der FeierabendWerkstatt</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "e6a26977-2a6c-4625-80df-f46eb11394f0",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-04-11",
+                    "validThrough": "2025-01-31",
+                    "opens": "17:00",
+                    "closes": "23:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "6449dd5a-afd7-4c5b-a0d5-00cfb94e82de",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-04-01",
+                    "validThrough": "2025-01-31",
+                    "opens": "11:00",
+                    "closes": "21:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "c03faca2-9e31-40ec-ad8d-2924269cc3cd",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Jeden Donnerstag und Sonntag ge&ouml;&ouml;fnet, sowie jeden letzten Samstag im Monat ab 17:00 Uhr!<br/><br/><br/>F&uuml;r Gruppen ab 15 Personen auf Anfrage!</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                },
+                {
+                    "@id": "3940b09b-1b96-4962-85fe-f1abe41d1e44",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Open every Thursday and Sunday, as well as every last Saturday of the month from 17:00!</p> <p><br/>For groups of 15 people or more on request!</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "en"
+                    ]
+                },
+                {
+                    "@id": "8d074d49-52cd-4c32-a531-ebcb8779abf5",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Ouvert tous les jeudis et dimanches, ainsi que le dernier samedi du mois &agrave; partir de 17:00 heures !</p> <p><br/>Pour les groupes &agrave; partir de 15 personnes, sur demande !</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "fr"
+                    ]
+                },
+                {
+                    "@id": "95f0625a-ccbc-4008-b97f-63da3caabeb2",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Elke donderdag en zondag geopend, evenals elke laatste zaterdag van de maand vanaf 17:00!</p> <p><br/>Voor groepen van 15 personen of meer op aanvraag!</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "nl"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Perlbachweg 14",
+                "postalCode": "67744",
+                "addressLocality": "Kappeln",
+                "addressCountry": "DE",
+                "@id": "d665a086-8d89-415d-a0b9-f9fda57d2809",
+                "email": "email@feierabendwerkstatt.de"
+            },
+            "geo": {
+                "longitude": 7.56828,
+                "@id": "d665a086-8d89-415d-a0b9-9d71499a51ba",
+                "@type": "GeoCoordinates",
+                "latitude": 49.67842
+            },
+            "image": [
+                {
+                    "@id": "aad13323-9560-4422-a3ba-f114c116bd4f",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/aad13323-9560-4422-a3ba-f114c116bd4f/5DojaKxicWxBzlP_75qrYeMkYDEa3bUV2ewKJe8uel4/1739368500/default/feierabendwerkstattbild1.jpg"
+                },
+                {
+                    "@id": "11a9ca64-0656-4c94-a8e4-b8e556c2fbe5",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/11a9ca64-0656-4c94-a8e4-b8e556c2fbe5/wBkRWMxni-IXhWnPTfGK0GCENBxiBLsA-Az2vOT0_o0/1739368500/default/feierabendwerkstattbild2.jpg"
+                },
+                {
+                    "@id": "23896d98-d6ed-4887-9ea9-7d7ff9deddc9",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/23896d98-d6ed-4887-9ea9-7d7ff9deddc9/OWYjRVOc3kGGYWHVsyzqpjOfRPEkMXvWMnkcxCFLjd0/1739368500/default/feierabendwerkstattbild3.jpg"
+                },
+                {
+                    "@id": "31aa4e58-edbd-45e8-abbf-aa90762ae560",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/31aa4e58-edbd-45e8-abbf-aa90762ae560/OanloNuE6vMledthmr1xGMs1ckcQMhspYomNHy2mbR4/1739368500/default/feierabendwerkstattbild4.jpg"
+                },
+                {
+                    "@id": "61c2996d-26a8-41c4-b841-d90c9518f8fd",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/61c2996d-26a8-41c4-b841-d90c9518f8fd/TI2DtnQL3smfmeuEjGNn9T0PmOa2Ff0C27HUxatd3L4/1739368500/default/feierabendwerkstattbild5.jpg"
+                },
+                {
+                    "@id": "bd9d11d5-f273-446a-83ac-b8065c3194a7",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/bd9d11d5-f273-446a-83ac-b8065c3194a7/j1Kg7fbxoUStuDOSSAiGFZaXRkgf5rBssXYta8pYOig/1739368500/default/feierabendwerkstattbild6.jpg"
+                }
+            ],
+            "dc:slug": "beimbauer-s-feierabendwerkstatt"
+        },
+        {
+            "@id": "3ed5fefe-6131-4621-ad7a-047c18050f2e",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Restaurant Hellas",
+            "description": "<p>Griechisches Restaurant im Herzen von Ulmet.</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "3d5fa5c6-04be-4c12-86a6-d1d9d8bdeedf",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-03-01",
+                    "validThrough": "2028-12-31",
+                    "opens": "17:30",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "5fbb81b4-8250-4dfd-bcf4-306125fe8464",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-03-01",
+                    "validThrough": "2028-12-31",
+                    "opens": "17:30",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "89df92e7-1f55-48ae-8fef-e683950b9d77",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-03-01",
+                    "validThrough": "2028-12-31",
+                    "opens": "11:30",
+                    "closes": "14:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "da484fbe-2dd8-4b1f-92d1-34298c78c703",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>&Ouml;ffnungszeiten<br/>Mo.+Do.+Fr. und Samstag <br/>17:30 Uhr bis 22:00 Uhr<br/>Sonntag und an Feiertagen&nbsp;<br/>11:30 Uhr bis 14:00 Uhr<br/>17:30 Uhr bis 22:00 Uhr<br/><br/>Dienstag und Mittwoch Ruhetag</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                },
+                {
+                    "@id": "be5d5d85-83d7-4c03-8038-3b27e70820d9",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Opening hours<br/>Mon.+Thu.+Fri. and Saturday<br/>17:30 until 22:00<br/>Sunday and public holidays <br/>11:30 am to 2:00 pm<br/>17:30 to 22:00</p> <p>Tuesday and Wednesday closed</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "en"
+                    ]
+                },
+                {
+                    "@id": "94e5bf70-b724-4531-b45f-ad5516cd15d2",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Heures d'ouverture<br/>Lu.+Me.+Ve.et Samedi<br/>de 17:30 &agrave; 22:00 heures<br/>Dimanche et jours f&eacute;ri&eacute;s <br/>11:30 jusqu'&agrave; 14:00<br/>17:30 jusqu'&agrave; 22:00</p> <p>Mardi et mercredi jour de repos</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "fr"
+                    ]
+                },
+                {
+                    "@id": "9541acaa-c83b-4a1a-badb-13112e1b96a2",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Openingstijden<br/>Ma.+Du.+Vrij. en zaterdag<br/>17:30 tot 22:00<br/>Zondag en feestdagen <br/>11:30 tot 14:00<br/>17:30 tot 22:00</p> <p>Dinsdag en woensdag gesloten</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "nl"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Meisenheimer Strasse 18",
+                "postalCode": "66887",
+                "addressLocality": "Ulmet",
+                "addressCountry": "DE",
+                "@id": "3ed5fefe-6131-4621-ad7a-8c31800196b1",
+                "telephone": "(0049) 6387 227",
+                "url": "http://www.hellas-ulmet.de/"
+            },
+            "geo": {
+                "longitude": 7.4566514,
+                "@id": "3ed5fefe-6131-4621-ad7a-e8bd6ce6ef02",
+                "@type": "GeoCoordinates",
+                "latitude": 49.5876594
+            },
+            "image": [
+                {
+                    "@id": "7b7bb329-a03c-4834-bf3b-d40a3a44f22c",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/7b7bb329-a03c-4834-bf3b-d40a3a44f22c/LN8XbHWH62mXN-dmAvb8Xjew-N9tcfqK6JrOUOxdHf4/1739368500/default/innenbereich.jpg"
+                },
+                {
+                    "@id": "281c0883-be2c-4586-b20b-801c0661926e",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/281c0883-be2c-4586-b20b-801c0661926e/DD1kzS16xqXOHx8yvPemHh9OD-fCtWRbLckKstGjKm4/1739368500/default/innenbereich_mit_tafel.jpg"
+                }
+            ],
+            "dc:slug": "restaurant-hellas"
+        },
+        {
+            "@id": "dff7461f-7aaf-49fd-a2a7-5aa84c8d2dd9",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Café Auszeit",
+            "description": "<p>Das Café Auszeit liegt im Herzen von Kusel.</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "25880613-ceed-4faf-9acf-ea500b0c8f7f",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-03-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "09:00",
+                    "closes": "15:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "cd6c1014-4286-4a34-bc31-3b9141518c8b",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-03-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "09:00",
+                    "closes": "13:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Friday"
+                    ]
+                },
+                {
+                    "@id": "70686a97-7de3-4efb-bd08-92feebdb4160",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>&Ouml;ffnungszeiten:</p> <p>Montag bis Donnerstag von 09:00 Uhr bis 15:00 Uhr<br/>Freitag von 09:00 Uhr bis 13:00 Uhr<br/>Samstag und Sonntag geschlossen</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                },
+                {
+                    "@id": "fbc532cc-5af3-4bf0-9ca2-6795f3412af4",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Opening hours:</p> <p>Monday to Thursday from 09:00 to 15:00<br/>Friday from 09:00 to 13:00<br/>Saturday and Sunday closed</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "en"
+                    ]
+                },
+                {
+                    "@id": "497a6f00-856f-4bff-a657-d60020d4ca3f",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Horaires d'ouverture :</p> <p>du lundi au jeudi de 09:00 &agrave; 15:00<br/>Vendredi de 09:00 &agrave; 13:00<br/>Samedi et dimanche ferm&eacute;</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "fr"
+                    ]
+                },
+                {
+                    "@id": "852e444e-09a9-4e86-82b7-5725137cfa57",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Openingstijden:</p> <p>Maandag tot donderdag van 09:00 tot 15:00<br/>Vrijdag van 09:00 tot 13:00<br/>Zaterdag en zondag gesloten</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "nl"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Marktstrasse 169",
+                "postalCode": "66869",
+                "addressLocality": "Kusel",
+                "addressCountry": "DE",
+                "@id": "dff7461f-7aaf-49fd-a2a7-d2e5d489b446",
+                "email": "Cafeauszeitkusel@gmail.com",
+                "url": "https://cafe-auszeit-kusel.metro.biz/?lang"
+            },
+            "geo": {
+                "longitude": 7.4013052,
+                "@id": "dff7461f-7aaf-49fd-a2a7-b669386ecdf5",
+                "@type": "GeoCoordinates",
+                "latitude": 49.5372533
+            },
+            "image": [
+                {
+                    "@id": "0623cd12-e85e-4af6-a053-39509375f2db",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/0623cd12-e85e-4af6-a053-39509375f2db/cc1gB1ZltCnsoKq5XEIMbY3_vRsCj4rVDqCgCNMnY4s/1739368500/default/collage_cafe_auszeit.jpg"
+                },
+                {
+                    "@id": "93fe7b07-0bbc-4dd0-ad71-d837e175cc6c",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/93fe7b07-0bbc-4dd0-ad71-d837e175cc6c/IJI8oBLoq7o5rJJvHgYqbf4IfrrXpy2vAjexaYJFY5o/1739368500/default/blick_zur_theke.jpg"
+                },
+                {
+                    "@id": "da74f95b-caea-4045-b900-9b605cb484d0",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/da74f95b-caea-4045-b900-9b605cb484d0/X84rOOGQG09B02c7nopTiEQYwZUKDVwpJIFK3mrkK1M/1739368500/default/blick_in_den_innenraum.jpg"
+                },
+                {
+                    "@id": "36bf5839-e9cd-4640-b934-339c794041bb",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/36bf5839-e9cd-4640-b934-339c794041bb/KCgwISHoPxKX7J_rCHOg_WDvhpe-QaN-gk6mVBgieqs/1739368500/default/innenraum.jpg"
+                },
+                {
+                    "@id": "6585d822-8ee5-4924-b3f1-67b18825a102",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/6585d822-8ee5-4924-b3f1-67b18825a102/1UFYkW2XwnOloTDYO3Rd5fVZ1RfhV9fGHhRKihUhdF0/1739368500/default/innenraum_mit_spielecke.jpg"
+                },
+                {
+                    "@id": "9895c5e8-6df1-4a5e-baa7-13c61537ba58",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/9895c5e8-6df1-4a5e-baa7-13c61537ba58/Ho-1-vSon87t0HYjlhhI57LqNt1QkFEtJYuOxA_SqJw/1739368500/default/kaffeemaschine_cafe_auszeit.jpg"
+                }
+            ],
+            "dc:slug": "cafe-auszeit-4"
+        },
+        {
+            "@id": "daefeedc-9627-4d71-a52d-89498b523567",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Istanbul Pizza & Döner Haus",
+            "description": "<p>Das Pizza &amp; Döner Haus in Miesau serviert köstliche Döner und Pizzen.</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "647851ea-be1f-4e78-976e-60f7da0caca4",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2025-12-31",
+                    "opens": "11:00",
+                    "closes": "23:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Bahnhofstraße 5",
+                "postalCode": "66892",
+                "addressLocality": "Bruchmühlbach-Miesau",
+                "addressCountry": "DE",
+                "@id": "daefeedc-9627-4d71-a52d-01041356acf8",
+                "telephone": "(0049) 6372 8066606",
+                "url": "https://www.facebook.com/p/%C4%B0stanbul-Kebap-Pizza-Haus-H%C3%BCtschenhausen-10"
+            },
+            "geo": {
+                "longitude": 7.43874450370485,
+                "@id": "daefeedc-9627-4d71-a52d-6588ffb1d54b",
+                "@type": "GeoCoordinates",
+                "latitude": 49.4036649847616
+            },
+            "image": [
+                {
+                    "@id": "5d50a6a1-44f1-4fd4-a64d-0a03655cf8f5",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/5d50a6a1-44f1-4fd4-a64d-0a03655cf8f5/VPkxWHRarrFFUGnPRKAloeKWStw3eFJvXsG1MhajHjs/1739368500/default/aussenansicht.png"
+                }
+            ],
+            "dc:slug": "istanbul-pizza-doener-haus"
+        },
+        {
+            "@id": "d64cfb67-d478-4971-a20f-c3d05455abd3",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Bistro Peter Braun",
+            "description": "<p>Traditionelles Metzgerhandwerk mit dem Fokus auf Leidenschaft, Service und hochwertige Produkte.</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "d09ed479-8177-49b1-884c-bd9586f71cdf",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2030-12-24",
+                    "opens": "08:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Kaiserstraße 202",
+                "postalCode": "66892",
+                "addressLocality": "Bruchmühlbach-Miesau",
+                "addressCountry": "DE",
+                "@id": "d64cfb67-d478-4971-a20f-4b9dcc51324c",
+                "telephone": "(0049) 6372 8033158",
+                "email": "info@metzgerei-peter-braun.de"
+            },
+            "geo": {
+                "longitude": 7.4425471,
+                "@id": "d64cfb67-d478-4971-a20f-2f1120b64bff",
+                "@type": "GeoCoordinates",
+                "latitude": 49.3835909
+            },
+            "dc:slug": "bistro-peter-braun"
+        },
+        {
+            "@id": "ddb7b888-3069-465b-a3c6-68e50113a2cc",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Nino Ziegelhütte",
+            "description": "<p>Lassen Sie sich von unserer original italienischen Spezialitätenküche kulinarisch verwöhnen!</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "4ef3c2ce-8be7-4a1c-9f48-9065b7717b9f",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "11:00",
+                    "closes": "14:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "2eeb03ca-71fa-43a3-b5ea-bb24fa880624",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "11:00",
+                    "closes": "14:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "89010b13-6935-4543-bd08-634325a2dcb4",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "17:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "1caf35bb-8bc7-401c-a163-4239bebb8948",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "17:30",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "3147e4d7-14a5-4ded-859e-8c70e7a532c8",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>&Ouml;ffnungszeiten</p> <p>Montags Ruhetag (ausser Feiertags)<br/>Dienstag bis Samstag von 11:00 Uhr bis 14:00 Uhr sowie von 17:30 Uhr bis 22:00 Uhr<br/>Sonn- und Feiertags&nbsp;von 11:00 Uhr bis 14:30 Uhr sowie von 17:00 Uhr bis 22:00 Uhr</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                },
+                {
+                    "@id": "b5ac8814-40f0-499f-b4e4-4e09e10cf487",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Opening hours</p> <p>Closed on Mondays (except public holidays)<br/>Tuesday to Saturday from 11:00 a.m. to 2:00 p.m. and from 5:30 p.m. to 10:00 p.m.<br/>Sundays and public holidays from 11:00 a.m. to 2:30 p.m. and from 5:00 p.m. to 10:00 p.m.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "en"
+                    ]
+                },
+                {
+                    "@id": "2bd9aa8e-fe39-4cb3-9a01-a7660fc998f3",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Heures d'ouverture</p> <p>Lundi jour de repos (sauf jours f&eacute;ri&eacute;s)<br/>Du mardi au samedi de 11:00 &agrave; 14:00 ainsi que de 17:30 &agrave; 22:00<br/>Dimanche et jours f&eacute;ri&eacute;s de 11:00 &agrave; 14:30 ainsi que de 17:00 &agrave; 22:00</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "fr"
+                    ]
+                },
+                {
+                    "@id": "7cd82d4b-168d-4b28-a202-d5d248c812f0",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Openingstijden</p> <p>Gesloten op maandag (behalve feestdagen)<br/>Dinsdag t/m zaterdag van 11.00 tot 14.00 uur en van 17.30 tot 22.00 uur.<br/>Zon- en feestdagen van 11:00 tot 14:30 en van 17:00 tot 22:00.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "nl"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Ziegelhütte 8",
+                "postalCode": "66869",
+                "addressLocality": "Kusel",
+                "addressCountry": "DE",
+                "@id": "ddb7b888-3069-465b-a3c6-e0a899173b53",
+                "telephone": "+49 6381 9209500",
+                "email": "info@nino-ziegelhuette.de"
+            },
+            "geo": {
+                "longitude": 7.4249645,
+                "@id": "ddb7b888-3069-465b-a3c6-842475f042e0",
+                "@type": "GeoCoordinates",
+                "latitude": 49.5431849
+            },
+            "image": [
+                {
+                    "@id": "f7c2fef4-5027-4d19-8163-c0fe6c858b8f",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/f7c2fef4-5027-4d19-8163-c0fe6c858b8f/ulp2STGx2xKHENavKBSppdZ-zve-etCQcINiQo1p0ok/1739368500/default/aussenansicht_ziegelhuette.jpg"
+                }
+            ],
+            "dc:slug": "nino-ziegelhuette-2"
+        },
+        {
+            "@id": "e7be1428-2f13-49ce-8e20-5893d3085e15",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Deutsches Haus",
+            "description": "<p>Gutbürgerliche Küche</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "312fb28c-1853-438b-92bd-17bab2c9ee57",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "11:00",
+                    "closes": "14:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday"
+                    ]
+                },
+                {
+                    "@id": "830a5df1-b1ef-4f89-a2d4-47d295048048",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "17:15",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "c55c6177-eb74-45ae-a071-a1fc301d2fe2",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "17:15",
+                    "closes": "23:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "31798ffe-a880-4aae-957d-d71140e81940",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "17:15",
+                    "closes": "21:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "808a24e1-e3e0-4b71-9340-6a9389734a8d",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>&Ouml;ffnungszeiten</p> <p>Montag &amp; Dienstag Ruhetag<br/>Mittwoch 11:00 Uhr bis 14:00 Uhr sowie von 17:15 Uhr bis 22:00 Uhr<br/>Donnerstag&nbsp;11:00 Uhr bis 14:00 Uhr sowie von 17:15 Uhr bis 22:00 Uhr<br/>Freitag&nbsp;11:00 Uhr bis 14:00 Uhr sowie von 17:15 Uhr bis 23:00 Uhr<br/>Samstag&nbsp;17:15 Uhr bis 23:00 Uhr<br/>Sonntag&nbsp;11:00 Uhr bis 14:00 Uhr sowie von 17:15 Uhr bis 21:00 Uhr</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                },
+                {
+                    "@id": "6dd2ec2c-ebe6-4282-a98f-d0fd8698378f",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Opening hours</p> <p>Monday &amp; Tuesday day off<br/>Wednesday 11:00 a.m. to 2:00 p.m. and from 5:15 p.m. to 10:00 p.m.<br/>Thursday 11:00 a.m. to 2:00 p.m. and from 5:15 p.m. to 10:00 p.m.<br/>Friday 11:00 a.m. to 2:00 p.m. and from 5:15 p.m. to 11:00 p.m.<br/>Saturday 5:15 p.m. to 11:00 p.m.<br/>Sunday 11:00 a.m. to 2:00 p.m. and from 5:15 p.m. to 9:00 p.m.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "en"
+                    ]
+                },
+                {
+                    "@id": "2d23e3fe-1050-45f4-b952-c731f27b9d01",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Heures d'ouverture</p> <p>Lundi &amp; mardi jour de repos<br/>Mercredi 11:00 &agrave; 14:00 et de 17:15 &agrave; 22:00<br/>Jeudi 11:00 &agrave; 14:00 et de 17:15 &agrave; 22:00<br/>Vendredi 11:00 &agrave; 14:00 et de 17:15 &agrave; 23:00<br/>Samedi de 17:15 &agrave; 23:00<br/>Dimanche de 11:00 &agrave; 14:00 et de 17:15 &agrave; 21:00</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "fr"
+                    ]
+                },
+                {
+                    "@id": "329fd7e5-283f-4d32-9319-c4ef2dc8291f",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Openingstijden</p> <p>Maandag &amp; dinsdag vrije dag<br/>Woensdag 11:00 tot 14:00 uur en van 17:15 tot 22:00 uur.<br/>Donderdag van 11.00 tot 14.00 uur en van 17.15 tot 22.00 uur.<br/>Vrijdag 11:00 uur tot 14:00 uur en van 17:15 uur tot 23:00 uur.<br/>Zaterdag 17:15 tot 23:00 uur<br/>Zondag 11:00 tot 14:00 uur en van 17:15 tot 21:00 uur.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "nl"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Weiherplatz 24",
+                "postalCode": "66869",
+                "addressLocality": "Kusel",
+                "addressCountry": "DE",
+                "@id": "e7be1428-2f13-49ce-8e20-d0de4b0cc78a",
+                "telephone": "+49 6381 2178",
+                "email": "deutscheshauskusel@gmail.com"
+            },
+            "geo": {
+                "longitude": 7.4008156,
+                "@id": "e7be1428-2f13-49ce-8e20-b452a7ebbe39",
+                "@type": "GeoCoordinates",
+                "latitude": 49.536277
+            },
+            "image": [
+                {
+                    "@id": "109571b6-f7a0-4142-9a0b-aeb6f81c6fb9",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/109571b6-f7a0-4142-9a0b-aeb6f81c6fb9/At-lIwGU5nuz64-6Wg-uQFYhMIgInHM8nJJ_EKLt6ns/1739368500/default/deutsches_haus_aussenansicht.jpg"
+                }
+            ],
+            "dc:slug": "deutsches-haus-u6rmwkld"
+        },
+        {
+            "@id": "64f70856-7c72-46dc-9cdc-dec75b9a4b79",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Daniels am Markt",
+            "description": "<p>Frische Zutaten, bodenständige Küche und Genuss pur! </p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "31c5af49-ebd9-445c-849f-f3d09cacf6a1",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "18:00",
+                    "closes": "22:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Monday",
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "6e24e97d-5b47-4d92-8268-8601cb430099",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-31",
+                    "validThrough": "2027-12-31",
+                    "opens": "11:30",
+                    "closes": "14:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "f88eb3e6-a2f5-440c-a0a8-02e987ca0331",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-31",
+                    "validThrough": "2027-12-31",
+                    "opens": "17:00",
+                    "closes": "22:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "4264f670-efc4-4e88-8581-1ee9be56cced",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-31",
+                    "validThrough": "2027-12-31",
+                    "opens": "18:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Friday"
+                    ]
+                },
+                {
+                    "@id": "d0b420e8-2282-4432-a131-d123801cae6b",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Öffnungszeiten<br><br>Montag 18:00 Uhr bis 22:30 Uhr<br>Dienstag &amp; Mittwoch Ruhetag<br>Donnerstag 18:00 Uhr bis 22:30 Uhr<br>Freitag 18:00 Uhr bis 22:00 Uhr<br>Samstag 17:00 Uhr bis 22:30 Uhr<br>Sonntag 11:30 Uhr bis 14:30 Uhr sowie von 18:00 Uhr bis 22:30 Uhr</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                },
+                {
+                    "@id": "bab6076f-1370-469a-a97d-e3b9070e25c6",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Opening hours</p> <p>Monday 18:00 to 22:30<br/>Tuesday &amp; Wednesday day off<br/>Thursday 18:00 to 22:30<br/>Friday 6:00 p.m. to 10:00 p.m.<br/>Saturday 5:00 p.m. to 10:30 p.m.<br/>Sunday 11:30 a.m. to 2:30 p.m. and from 6:00 p.m. to 10:30 p.m.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "en"
+                    ]
+                },
+                {
+                    "@id": "a9d235e2-c06e-4dd9-b818-7160c0a54991",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Heures d'ouverture</p> <p>lundi de 18:00 &agrave; 22:30 heures<br/>Mardi &amp; mercredi jour de repos<br/>Jeudi 18:00 &agrave; 22:30<br/>Vendredi 18:00 &agrave; 22:00<br/>Samedi 17:00 &agrave; 22:30<br/>Dimanche 11:30 &agrave; 14:30 ainsi que de 18:00 &agrave; 22:30</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "fr"
+                    ]
+                },
+                {
+                    "@id": "2048ba45-e6ec-4a72-ba88-4ad3c9ed4b38",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Openingstijden</p> <p>Maandag 18:00 tot 22:30<br/>Dinsdag &amp; woensdag vrije dag<br/>Donderdag 18:00 tot 22:30<br/>Vrijdag 18:00 tot 22:00<br/>Zaterdag 17:00 tot 22:30<br/>Zondag 11:30 tot 14:30 uur en van 18:00 tot 22:30 uur</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "nl"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Marktplatz 6",
+                "postalCode": "66869",
+                "addressLocality": "Kusel",
+                "addressCountry": "DE",
+                "@id": "64f70856-7c72-46dc-9cdc-568ac39ed2e6",
+                "telephone": "+49 6381 4252998",
+                "email": "info@daniels-am-markt.de"
+            },
+            "geo": {
+                "longitude": 7.4010772,
+                "@id": "64f70856-7c72-46dc-9cdc-32062f79ab55",
+                "@type": "GeoCoordinates",
+                "latitude": 49.5374601
+            },
+            "image": [
+                {
+                    "@id": "6172d195-5e66-4730-bed6-ea6488a20c82",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/6172d195-5e66-4730-bed6-ea6488a20c82/uX-WrgVfNi1tqQDtPKxJkgd7S-85FTjsIcdNDtDJGaw/1739368500/default/daniels_am_markt_aussenansicht.jpg"
+                },
+                {
+                    "@id": "697a6532-177d-4e02-ae70-c760cc2d295d",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/697a6532-177d-4e02-ae70-c760cc2d295d/6iaIvNf31FkRq1IHPLiXM8n7p6HNbh7aYXw93qur8jI/1739368500/default/ihre_gastgeber.jpg"
+                },
+                {
+                    "@id": "71111d1f-1ac0-4e9b-acd1-844270c582b4",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/71111d1f-1ac0-4e9b-acd1-844270c582b4/IjoFD5hnoZTxSIKKSzuCA-d9IPop1-OXFSXPMy2S7T8/1739368500/default/innenbereich.jpg"
+                },
+                {
+                    "@id": "44ee6874-52b3-448d-9012-1a17071630d1",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/44ee6874-52b3-448d-9012-1a17071630d1/yTZ02hEJEKgBNCLXT2JXeXy7zNR2px5cM_tjh2Q8jPg/1739368500/default/kulinarische_koestlichkeiten.jpg"
+                },
+                {
+                    "@id": "2dbcd7c0-2d9b-4a69-97a4-38ed1a4e5ead",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/2dbcd7c0-2d9b-4a69-97a4-38ed1a4e5ead/uoMe5GbaSS4qDe_AouFrtFSixrf_xExT8MMR4ZtP0nU/1739368500/default/lassen_sie_sich_verzaubern.jpg"
+                },
+                {
+                    "@id": "343615dc-58b9-4cec-a96d-3bd082f25465",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/343615dc-58b9-4cec-a96d-3bd082f25465/bUjXLTGtBctsAkzohSptkGHVPIBXUklTJ7cXgmY-TpA/1739368500/default/hauptgericht.jpg"
+                },
+                {
+                    "@id": "06018aac-c6c2-4f57-bf6a-66f9d0ac604b",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/06018aac-c6c2-4f57-bf6a-66f9d0ac604b/awD1JXOP2xKB4FcBNYwwX8-gRTueoQXUscxiMHyqFO0/1739368500/default/noch_eine_suesse_verfuehrung_zum_schluss.jpg"
+                }
+            ],
+            "dc:slug": "daniels-am-markt-4"
+        },
+        {
+            "@id": "ceeccfe4-d66f-4d4e-996b-106a00d7d334",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Asia Bistro Hoang",
+            "description": "<p>Traditionelle asiatische Gerichte mit kurzen Wartezeiten, auch zum Mitnehmen!</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "53511570-2b80-4b4f-9265-210201f1cb9b",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "11:30",
+                    "closes": "13:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "151a12bc-3c0d-4322-9cd4-a972f20fb629",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-01-01",
+                    "validThrough": "2027-12-31",
+                    "opens": "17:00",
+                    "closes": "20:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "189fac9e-57f2-4d97-ab2b-12e4f3d5e883",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>&Ouml;ffnungszeiten</p> <p>Montag, Dienstag und Donnerstag 11:30 Uhr bis 13:30 Uhr sowie von 17:00 Uhr bis 20:30<br/>Freitag, Samstag und Sonntag&nbsp;von 17:00 Uhr bis 20:30<br/>Mittwoch Ruhetag<br/><br/></p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                },
+                {
+                    "@id": "d9654cc8-308d-43ba-b5a9-a4953d8f6d4f",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Opening hours<br/>Monday, Tuesday and Thursday 11:30 am to 1:30 pm and from 5:00 pm to 8:30 pm<br/>Friday, Saturday and Sunday from 17:00 to 20:30<br/>Wednesday day off</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "en"
+                    ]
+                },
+                {
+                    "@id": "3904020f-25c8-4a49-9ed4-b94f7af48452",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Heures d'ouverture<br/>Lundi, mardi et jeudi de 11:30 &agrave; 13:30 et de 17:00 &agrave; 20:30<br/>Vendredi, samedi et dimanche de 17:00 &agrave; 20:30<br/>Mercredi jour de repos</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "fr"
+                    ]
+                },
+                {
+                    "@id": "290c91ef-875c-47dc-bf8a-8bdaa773218e",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Openingstijden<br/>Maandag, dinsdag en donderdag van 11:30 tot 13:30 en van 17:00 tot 20:30<br/>Vrijdag, zaterdag en zondag van 17.00 tot 20.30 uur<br/>Woensdag vrije dag</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "nl"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Trierer Str. 98 A",
+                "postalCode": "66869",
+                "addressLocality": "Kusel",
+                "addressCountry": "DE",
+                "@id": "ceeccfe4-d66f-4d4e-996b-982798d34aab",
+                "telephone": "+49 6381 427573"
+            },
+            "geo": {
+                "longitude": 7.3954323,
+                "@id": "ceeccfe4-d66f-4d4e-996b-fcab74343318",
+                "@type": "GeoCoordinates",
+                "latitude": 49.5426214
+            },
+            "image": [
+                {
+                    "@id": "64d6cdba-f593-4fc1-b3e7-abf05175a428",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/64d6cdba-f593-4fc1-b3e7-abf05175a428/GMfFUIb_8XojVtIJESOmHhTLUBWizGTMj8Mednz-yPo/1739368500/default/asia_bistro_hoang.jpg"
+                }
+            ],
+            "dc:slug": "asia-bistro-hoang-2"
+        },
+        {
+            "@id": "2b0a640f-c3e7-4623-a5fb-d4df1d4dd225",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Kebap Star",
+            "description": "<p>Ein Schnellrestaurant, das ein Abhol-und Lieferservice anbietet. </p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "123071b6-57d9-4e4a-8634-475e5f4b94fe",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2024-12-31",
+                    "opens": "11:00",
+                    "closes": "21:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "91ef4d56-8c34-4ff7-bfea-7777afaa433a",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2024-12-31",
+                    "opens": "12:00",
+                    "closes": "21:30",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "1e66b836-be37-4214-9336-f95ca04916f3",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Die Lieferzeit beginnt eine Halbestunde nach der &Ouml;ffnungszeit und Endet 15min vor der Schlie&szlig;zeit.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Kaiserstraße 148",
+                "postalCode": "66892",
+                "addressLocality": "Bruchmühlbach-Miesau",
+                "addressCountry": "DE",
+                "@id": "2b0a640f-c3e7-4623-a5fb-5c9285494bba",
+                "telephone": "(0049) 6372 9958035"
+            },
+            "geo": {
+                "longitude": 7.451256,
+                "@id": "2b0a640f-c3e7-4623-a5fb-381e69ae3209",
+                "@type": "GeoCoordinates",
+                "latitude": 49.385003
+            },
+            "image": [
+                {
+                    "@id": "41dd0712-448c-431a-964f-5ca3d1d7aee6",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/41dd0712-448c-431a-964f-5ca3d1d7aee6/ej19JYUmGXkRfrRwp9cAAA1ztpvXBjmEqq3azR_Rj8I/1739368500/default/innenansicht.png"
+                }
+            ],
+            "dc:slug": "kebap-star"
+        },
+        {
+            "@id": "f13776d3-e99f-420c-8e94-8b05b0668572",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Gasthaus \" The Farmer\"",
+            "description": "<p>Ein uriges Restaurant mit irischem, altdeutschem und rumänischem Flair und einer Mischung aus allem, was dazwischen liegt.</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "4edc89e1-aef1-4436-95e8-7469d8ef7070",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2024-12-31",
+                    "opens": "12:00",
+                    "closes": "14:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday"
+                    ]
+                },
+                {
+                    "@id": "a51e7e4a-6327-4c44-b5da-c48e4c4c37d0",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2024-12-31",
+                    "opens": "17:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Hauptstraße 5c",
+                "postalCode": "66894",
+                "addressLocality": "Langwieden",
+                "addressCountry": "DE",
+                "@id": "f13776d3-e99f-420c-8e94-034828621ced",
+                "telephone": "+496372999190"
+            },
+            "geo": {
+                "longitude": 7.5000786,
+                "@id": "f13776d3-e99f-420c-8e94-67c4c485655e",
+                "@type": "GeoCoordinates",
+                "latitude": 49.3742979
+            },
+            "dc:slug": "gasthaus-the-farmer"
+        },
+        {
+            "@id": "d7ae943d-d120-4f74-81e3-590c057d1fe8",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Café Schmidt",
+            "description": "<p>Das Café bietet traditionelle Backwaren, liebevoll zubereitete Torten und ein breites Angebot an Frühstück, Speisen, Eis und Kaffee an. </p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "4e9d22b4-af78-48ae-a178-0e8f306e67c9",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2030-02-28",
+                    "opens": "08:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "7120e111-0163-4d4b-9219-0d1acd02c0ca",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2030-02-28",
+                    "opens": "05:30",
+                    "closes": "14:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "0b3a8150-cc49-44b7-b72b-18671a7d031d",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2030-02-28",
+                    "opens": "05:30",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday"
+                    ]
+                },
+                {
+                    "@id": "b7a138c0-485e-4418-b0fd-3d460ea8e5d2",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Duftende Brote, zauberhaftes Gebäck, goldbraune Brötchen und individuelle Torten - dafür stehen wir. Unser Café erwartet Sie mit gemütlichen 30 Plätzen. Auch ein Teezimmer mit 80 Plätzen steht zur Verfügung. Ein üppiges Frühstück oder was Kleines für zwischendurch? Probieren Sie unser vielseitiges Speisenangebot.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                },
+                {
+                    "@id": "fc025a17-4814-4f7a-a4fd-05e9f31ef42b",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Fragrant breads, enchanting pastries, golden-brown rolls and individual cakes - that's what we stand for. Our café awaits you with 30 cosy seats. A tea room with 80 seats is also available. A sumptuous breakfast or something small for in between? Try our varied range of dishes.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "en"
+                    ]
+                },
+                {
+                    "@id": "b97e019f-53c0-41ba-b0d3-74d5780b43b6",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Des pains parfumés, des pâtisseries enchanteresses, des petits pains dorés et des gâteaux individuels - voilà ce que nous représentons. Notre café vous attend avec ses 30 places confortables. Un salon de thé de 80 places est également à votre disposition. Un petit déjeuner copieux ou un petit en-cas ? Goûtez à notre offre variée de plats.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "fr"
+                    ]
+                },
+                {
+                    "@id": "76378679-f8fd-4fb5-b215-0401058a5385",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Geurige broden, betoverend gebak, goudbruine broodjes en individuele taarten - dat is waar wij voor staan. Ons café wacht op je met 30 gezellige zitplaatsen. Er is ook een theesalon met 80 zitplaatsen. Een uitgebreid ontbijt of iets kleins voor tussendoor? Probeer ons gevarieerde aanbod aan gerechten.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "nl"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Kaiserstraße 113",
+                "postalCode": "66892",
+                "addressLocality": "Bruchmühlbach-Miesau",
+                "addressCountry": "DE",
+                "@id": "d7ae943d-d120-4f74-81e3-d1419d798677",
+                "telephone": "(0049) 6372 1247"
+            },
+            "geo": {
+                "longitude": 7.44879160674591,
+                "@id": "d7ae943d-d120-4f74-81e3-b5cd719effc4",
+                "@type": "GeoCoordinates",
+                "latitude": 49.3841900911223
+            },
+            "image": [
+                {
+                    "@id": "38cfefa6-6135-4fb9-9561-fb7c48dbd116",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/38cfefa6-6135-4fb9-9561-fb7c48dbd116/BIqVRIk9EcfJVkVDz2Nkmek13aEnj9LGwNdspV4ukCY/1739368500/default/cafe_schmidt.png"
+                }
+            ],
+            "dc:slug": "cafe-schmidt-1"
+        },
+        {
+            "@id": "ea6b5be3-3729-46aa-ad89-24cac9478a40",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Bäckerei Sprengard",
+            "description": "<p>Eine traditionelle familliengeführte Bäckerei, die Backwaren, Obst, Wurst, Käse, Milch und Handelswaren des täglichen Bedarfs anbietet. </p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "000f89c5-ec10-47e3-8826-07cc6efcbab9",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2024-12-31",
+                    "opens": "05:00",
+                    "closes": "18:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday"
+                    ]
+                },
+                {
+                    "@id": "9dd65072-f72a-4cdc-a3c4-bda1327e570a",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2024-12-31",
+                    "opens": "05:00",
+                    "closes": "13:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "0aeafa39-f7a0-4e33-bc12-d2d2261d7721",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2019-01-01",
+                    "validThrough": "2024-12-31",
+                    "opens": "08:00",
+                    "closes": "10:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Sunday",
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "80fa2076-1166-4af0-8316-9f44f1d71654",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Wir sind eine traditionelle familliengeführte Bäckerei in 4. Generation seit 1930. Wir bieten zusätlich zu unseren Backwaren noch Obst, Wurst, Käse, Milch und Handelswaren des täglichen Bedarfs.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                },
+                {
+                    "@id": "5f23125f-51f9-4576-8418-a89fc21fafc0",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>We are a traditional family-run bakery in the 4th generation since 1930. In addition to our baked goods, we also offer fruit, sausage, cheese, milk and everyday goods.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "en"
+                    ]
+                },
+                {
+                    "@id": "fa6a0a1e-b2a9-4eac-8f79-9aa284f5ecfd",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Depuis 1930, nous sommes une boulangerie familiale traditionnelle depuis 4 générations. En plus de nos produits de boulangerie, nous proposons également des fruits, de la charcuterie, du fromage, du lait et des produits commerciaux de consommation courante.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "fr"
+                    ]
+                },
+                {
+                    "@id": "37a9074f-e15d-45f3-a1fb-0d3590a3ecf6",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>We zijn een traditionele familiebakkerij in de 4e generatie sinds 1930. Naast onze bakkerijproducten bieden we ook fruit, worst, kaas, melk en dagelijkse producten.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "nl"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Zweibrücker Straße 55",
+                "postalCode": "66894",
+                "addressLocality": "Martinshöhe",
+                "addressCountry": "DE",
+                "@id": "ea6b5be3-3729-46aa-ad89-ac87514313df",
+                "telephone": "004963721360",
+                "email": "info@baeckereisprengard.de",
+                "url": "https://baeckereisprengard.de/"
+            },
+            "geo": {
+                "longitude": 7.48106,
+                "@id": "ea6b5be3-3729-46aa-ad89-c80bbda46a6c",
+                "@type": "GeoCoordinates",
+                "latitude": 49.3640074
+            },
+            "image": [
+                {
+                    "@id": "1cdd59da-9afb-4901-a54b-1e9ca0467c16",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/1cdd59da-9afb-4901-a54b-1e9ca0467c16/msgYSnQtwKrjy_ENbSrwtsLORO7fyQIa1aUiKpdhbhM/1739368500/default/bild_2024-01-27_173537.png"
+                }
+            ],
+            "dc:slug": "baeckerei-sprengard"
+        },
+        {
+            "@id": "481f1fdc-9d47-4075-9718-1246ef09ae7a",
+            "@type": [
+                "Place",
+                "Organization",
+                "LocalBusiness",
+                "FoodEstablishment",
+                "dcls:Gastronomischer Betrieb"
+            ],
+            "name": "Ernst-Reichel-Hütte Offenbach-Hundheim",
+            "description": "<p>Herzlich Willkommen an der Ernst-Reichel-Hütte in Offenbach-Hundheim.</p>",
+            "openingHoursSpecification": [
+                {
+                    "@id": "8680f1e5-98cb-4c49-8815-e38c0f1f9f4b",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-06-22",
+                    "validThrough": "2024-06-22",
+                    "opens": "14:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "7c11d421-d924-42d5-9de5-b16ffaa954b2",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-07-27",
+                    "validThrough": "2024-07-27",
+                    "opens": "14:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "8e1ca03d-6c2c-4ca2-8572-ea1d64610187",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-05-25",
+                    "validThrough": "2024-05-25",
+                    "opens": "14:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "c06b4ebc-a692-48e8-85f7-ba8ffcfd26ff",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-10-26",
+                    "validThrough": "2024-10-26",
+                    "opens": "14:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "cbd3f3c5-e734-4da4-8a71-1650c76f0dc0",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-05-09",
+                    "validThrough": "2024-05-09",
+                    "opens": "09:00",
+                    "closes": "00:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Thursday"
+                    ]
+                },
+                {
+                    "@id": "8885336d-e87e-4206-b940-59278888bf28",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-09-28",
+                    "validThrough": "2024-09-28",
+                    "opens": "14:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "decc1594-ac60-4de3-86c3-b234233a7e38",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2024-08-24",
+                    "validThrough": "2024-08-24",
+                    "opens": "14:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "4dd432e4-cacc-4faa-bd1c-19e44ef51c56",
+                    "@type": "OpeningHoursSpecification",
+                    "validFrom": "2025-05-24",
+                    "validThrough": "2025-05-24",
+                    "opens": "14:00",
+                    "closes": "22:00",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ]
+                },
+                {
+                    "@id": "a3fbd061-803d-47be-85e8-6ef360bc9433",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>H&uuml;ttensaison von Mai bis Oktober.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "de"
+                    ]
+                },
+                {
+                    "@id": "46403b8e-97de-466d-8d0b-ede943f05102",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Cottage season from May to October.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "en"
+                    ]
+                },
+                {
+                    "@id": "25911315-d577-44e2-b49a-4c4d8d39b68e",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Saison des cabanes de mai &agrave; octobre.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "fr"
+                    ]
+                },
+                {
+                    "@id": "947dcc79-d0e2-4506-b259-2bfac636cee2",
+                    "@type": [
+                        "Intangible",
+                        "StructuredValue",
+                        "OpeningHoursSpecification",
+                        "dcls:Öffnungszeit - Beschreibung"
+                    ],
+                    "description": "<p>Saison des cabanes de mai &agrave; octobre.</p>",
+                    "dc:multilingual": false,
+                    "dc:translation": [
+                        "nl"
+                    ]
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Unnamed road",
+                "postalCode": "67749",
+                "addressLocality": "Offenbach-Hundheim",
+                "addressCountry": "DE",
+                "@id": "481f1fdc-9d47-4075-9718-9a0b770d37e5",
+                "telephone": "(0049) 6382 993598",
+                "email": "markus.neu@gmx.net"
+            },
+            "geo": {
+                "longitude": 7.5347,
+                "@id": "481f1fdc-9d47-4075-9718-fe879bea4e56",
+                "@type": "GeoCoordinates",
+                "latitude": 49.63162
+            },
+            "image": [
+                {
+                    "@id": "6e7d21ff-cb25-4709-80ac-6b1a268b50b6",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/6e7d21ff-cb25-4709-80ac-6b1a268b50b6/--yTrYG_m0t7f4E69fnZI9bTDg2xoGTqbRfgJXiBJ0U/1739368500/default/ernst_reichel_huette_aussenansicht.jpg"
+                },
+                {
+                    "@id": "c32f325d-4e4f-440a-a553-fd75248bd2c5",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/c32f325d-4e4f-440a-a553-fd75248bd2c5/qkXCgU0c4GMaSzdveURR5dxsSQSYDPHC1dkuAK9fuL8/1739368500/default/ernst-reichel_huette_offenbach-hundheim.jpg"
+                },
+                {
+                    "@id": "47bf4b33-8e94-467e-83d4-57836a9b8606",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/47bf4b33-8e94-467e-83d4-57836a9b8606/seizI9Ka-Q4TWo1FdMzd5R_dumYZrVe4ThaiJ-r2Qzo/1739368500/default/ernst-reichel-huette_offenbach-hundheim.jpeg"
+                },
+                {
+                    "@id": "5880ce80-f82d-45b8-8d63-8a09d18cd1a3",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/5880ce80-f82d-45b8-8d63-8a09d18cd1a3/ah2objvFZh02Fau_qSatFy1JEf53lHjRA3mNKwj7oyU/1739368500/default/kuchenbuffet_stammcafe.jpg"
+                },
+                {
+                    "@id": "91cb4d32-1e15-4f2f-a16f-a57f62e1c084",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/91cb4d32-1e15-4f2f-a16f-a57f62e1c084/8O2TKsQC1vboNo-nUg1UxlEf_IbFf_hXPWUbvmPGXHQ/1739368500/default/ernst-reichel-huette.jpg"
+                },
+                {
+                    "@id": "daa1e5c0-c0e7-457f-a741-82b68394827b",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/daa1e5c0-c0e7-457f-a741-82b68394827b/LnbEdKDubq7HmVDJnw_WEngEUSexaJDzWa49pSzlu8Q/1739368500/default/ernst-reichel-huette.jpg"
+                },
+                {
+                    "@id": "277f7113-54cb-423d-b28e-88cce29bed5f",
+                    "@type": [
+                        "CreativeWork",
+                        "MediaObject",
+                        "ImageObject",
+                        "dcls:Bild"
+                    ],
+                    "contentUrl": "https://data.rlp-tourismus.de/asset/277f7113-54cb-423d-b28e-88cce29bed5f/6sVpObjZglkiWevvL4srAztpJcMvYhfQrhX15vQXwb4/1739368500/default/ernst-reichel-huette.jpg"
+                }
+            ],
+            "dc:slug": "ernst-reichel-huette-offenbach-hundheim-2"
+        }
+    ],
+    "meta": {
+        "total": 103,
+        "pages": 5,
+        "collection": {
+            "id": "b74a1cf6-08e1-46df-8043-8e2439e3630c",
+            "name": "Gastronomie-Kusel",
+            "slug": "gastronomie-kusel"
+        }
+    },
+    "links": {
+        "next": "https://data.rlp-tourismus.de/api/v4/endpoints/b74a1cf6-08e1-46df-8043-8e2439e3630c?fields=name%2Cdescription%2Cimage.contentUrl%2CstartDate%2CendDate%2Caddress%2Cgeo%2CopeningHoursSpecification&include=image%2Clocation%2Cdc%3Aslug&page%5Bnumber%5D=2&page%5Bsize%5D=25"
+    }
+}

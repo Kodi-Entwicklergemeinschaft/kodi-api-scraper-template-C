@@ -1,4 +1,9 @@
 # Kodi.kusel_api_scraper
+
+<!-- kodi-badges -->
+![Open Source](https://img.shields.io/badge/Open%20Source-Ja-brightgreen.svg) ![Smart City](https://img.shields.io/badge/Smart%20City-Kommunal-orange.svg) ![Sprache](https://img.shields.io/badge/Sprache-JavaScript-informational.svg) ![KODI](https://img.shields.io/badge/KODI-Entwicklergemeinschaft-blueviolet.svg)
+<!-- /kodi-badges -->
+
 Scraping news data from APIs to create new listings
 
 [POI](https://data.rlp-tourismus.de/api/v4/endpoints/5e3d45d3-f183-4a4c-a439-2cf877c0b430)
